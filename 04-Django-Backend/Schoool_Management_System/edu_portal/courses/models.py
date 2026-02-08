@@ -9,11 +9,11 @@ class Course(models.Model):
     teacher = models.ForeignKey(User,on_delete=models.CASCADE,
                                 limit_choices_to={'role': 'teacher'},)
 
-def __str__(self):
-    return self.title
+    def __str__(self):
+        return self.title
 
 class Group(models.Model):
-    course = models.ForeignKey(Courses,on_delete=models.CASCADE)
+    course = models.ForeignKey(Course,on_delete=models.CASCADE)
     student = models.ManyToManyField(User,limit_choices_to={'role': 'student'},)
     start_date = models.DateField()
 
