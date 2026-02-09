@@ -1,0 +1,78 @@
+.products {
+}
+.products__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.products__title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+}
+.products__search {
+}
+
+.products__grid {
+  margin-top: 40px;
+  display: flex;
+  column-gap: 35px;
+  row-gap: 35px;
+  flex-wrap: wrap;
+}
+.product__card {
+  width: 210px;
+  height: 260px;
+  border: 1px solid #f3f3f3;
+  border-radius: 40px;
+  padding: 20px 30px 34px;
+}
+.card__img {
+  text-align: center;
+}
+.card__name {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 14px 0;
+}
+.card__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card__price span {
+  color: #bdbdbd;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.card__price p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+}
+.card__btn button {
+  background-color: transparent;
+  border: 1px solid #f2f2f2;
+  border-radius: 8px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+.card__btn.checked button {
+  background: linear-gradient(180deg, #89f09c, #3cc755);
+}
+.amount_box button {
+  width: 325px;
+  height: 55px;
+  border: none;
+  border-radius: 18px;
+  background-color: #9DD458;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  
+}

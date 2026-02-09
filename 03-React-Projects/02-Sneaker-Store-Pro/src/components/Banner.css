@@ -1,0 +1,22 @@
+.banner{
+   position: relative;
+
+}
+.Imagephone {
+  position: absolute;
+  left: 40%;
+  bottom: 3px;
+  transform: translateX(20%); 
+  width: 480px;
+  height: 338px;
+
+  z-index: 10;
+}
+.banner img .bn{
+width: 1110px;
+height: 410px;
+
+align-items: center;
+
+
+}
