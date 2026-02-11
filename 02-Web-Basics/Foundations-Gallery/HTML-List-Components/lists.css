@@ -1,0 +1,19 @@
+.no_dot {
+    list-style-type: none;
+}
+.grey {
+    color: gray;
+
+}
+li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+dt {
+    font-family:Arial, Helvetica, sans-serif
+}
+dl{
+    font-family: Arial, Helvetica, sans-serif;
+}

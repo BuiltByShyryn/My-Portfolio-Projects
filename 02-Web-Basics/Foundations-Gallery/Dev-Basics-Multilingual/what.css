@@ -1,0 +1,19 @@
+h1 {
+    text-align:left
+}
+.blue {
+    color:rgb(23, 23, 177)
+}
+.pink {
+    color:pink
+}
+
+code {
+    font-family: monospace;
+}
+code {
+    color:rgb(231, 137, 152)
+}
+pre {
+    background-color: #f0f0f0;
+}

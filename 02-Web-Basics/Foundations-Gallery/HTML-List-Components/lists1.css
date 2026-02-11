@@ -1,0 +1,9 @@
+li {
+    list-style-type: non
+}
+.x {
+    list-style-type: "❎";
+}
+.y {
+    list-style-type:"✅" ;
+}

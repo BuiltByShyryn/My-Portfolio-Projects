@@ -1,0 +1,23 @@
+h1 {
+    font-size: 36px;
+    margin: 1cm 0;
+    padding: 5mm;
+
+}
+.blue {
+    font-size: 26px;
+    margin: 1cm 0;
+    padding: 2mm;
+
+}
+.red {
+    
+    font-size: 19px;
+    padding: 0;
+    margin: 3mm;
+    text-align: left;
+    background-color: lightblue;
+    width: 900px;
+    height: 200px;
+    
+}

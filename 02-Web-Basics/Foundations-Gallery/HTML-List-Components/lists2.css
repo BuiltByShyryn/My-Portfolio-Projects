@@ -1,0 +1,14 @@
+.n {
+    list-style-type: decimal;
+    background-color: pink;
+}
+
+.l {
+    list-style-type: decimal;
+    background-color: rgb(252, 168, 182);
+}
+
+li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px 10px;
+}
