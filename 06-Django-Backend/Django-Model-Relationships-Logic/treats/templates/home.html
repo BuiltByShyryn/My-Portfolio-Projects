@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ice Cream Project Home</title>
+</head>
+<body>
+    <h1>Home Page</h1>
+    <p>Select an action below to manage the database:</p>
+
+    <div style="border: 1px solid#ccc; padding: 20px; border-radius: 10px; width: 300px;">
+        <h3> People Management</h3>
+        <ul>
+            <li><a href="{% url 'human_form' %}">Add New Parent</a></li>
+            <li><a href="{% url 'child_form' %}">Add New Child</a></li>
+        </ul>
+
+        <h3> Inventory & Sales</h3>
+        <ul>
+            <li><a href="{% url 'icecream_form' %}">Create Flavor</a></li>
+            <li><a href="{% url 'kiosk_form' %}">Setup Kiosk</a></li>
+        </ul>
+    </div>
+
+    <br>
+    <a href="{% url 'home' %}">⬅ Back to Main Shop</a>
+</body>
+</html>
