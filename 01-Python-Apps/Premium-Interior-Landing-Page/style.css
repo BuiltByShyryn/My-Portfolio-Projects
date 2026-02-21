@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, "arial", sans-serif;
+}
+.container {
+    width:1280px;
+    margin: 0 auto;
+
+}
+
+.grid {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+article.hero-text {
+    grid-column: 1/8;
+}
+
+.hero-text h1 {
+    font-family: "Amiri";
+}
+
+aside.hero-text {
+    grid-column: 8/13;
+}
+.hero-image {
+    grid-column: span 12;
+    width: 100%;
+    aspect-ratio: 3/1;
+    object-fit: cover;
+
+}
+
+body > header>nav.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    
+}
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+
+    
+}
+a {
+    text-decoration: none;
+}
+
+.button_primary {
+    width:290px;
+    padding: 0px;
+    height:60px;
+    border-radius: 40px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-align: center;
+    
+
+}
+
+
+
+.thin {
+    font-size: 85px;
+    font-weight: 400;
+
+}
+h1 {
+    gap: 1px;
+    font-size: 85px;
+    
+}
+.button_secondary {
+    width:200px;
+    padding: 0px;
+    height:60px;
+    border-radius: 40px;
+    
+    
+}
+
+ p {
+    padding:25px;
+    font-size: large;
+    text-align: left;
+    margin:60px;
+    width: auto;
+    height: 80px;
+}
+menu a {
+    color: black;
+}
+.control,
+.hero-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.hero-actions {
+    width: 100%;
+    grid-column: span 12
+}
+
+.arrow.button {
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+
+}
+.hero-actions a .button.secondary{
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+
+}
