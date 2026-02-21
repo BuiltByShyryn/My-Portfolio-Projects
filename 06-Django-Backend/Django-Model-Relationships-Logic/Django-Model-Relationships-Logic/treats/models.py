@@ -24,7 +24,7 @@ class Ice_Cream(models.Model):
         return self.name 
 class Kiosk(models.Model):
     name = models.CharField(max_length=255,blank=False, null=False)
-    ice_cream_type = models.ForeignKey(Ice_Cream, on_delete=models.CASCADE)
+    ice_cream_type = models.ForeignKey(Ice_Cream, on_delete=models.CASCADE, null=True, blank=True,)
     address = models.CharField(max_length=255,blank=True, null=True)
    
     def __str__(self):
