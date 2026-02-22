@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Thank you for your order!</h1>
+    <p>Your order is being processed. Here is what you got:</p>
+
+    <ul>
+        {% for item in items %}
+        <li><strong>{{ item[0] }}</strong> - ${{ item[1] }} (Quantity: {{ item[2] }})</li>
+        {% endfor %}
+    </ul>
+
+    <h3>Total Price: ${{ total }}</h3>
+
+    <a href="{{ url_for('home') }}">Go back to the store</a>
+</body>
+</html>

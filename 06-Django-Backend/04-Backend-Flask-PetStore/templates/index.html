@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Store</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to the Online Pet Store</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('categories') }}">Categories</a></li>
+                <li><a href="{{ url_for('order_confirmation') }}">View Receipt</a></li>
+                <li><a href="{{ url_for('cart') }}">Cart</a></li>
+                {% if session.get('admin') == 1 %}
+                <a href="{{ url_for('admin') }}">Admin Panel</a>
+                {% endif %}
+
+                {% if session.get('user_id') %}
+                <li><a href="{{ url_for('profile') }}">Profile</a></li>
+                <li><a href="{{ url_for('logout') }}">Logout</a></li>
+                {% else %}
+                <li><a href="{{ url_for('login') }}">Login</a></li>
+                <li><a href="{{ url_for('register') }}">Register</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="categories">
+        <h2>Shop by Category</h2>
+        <ul>
+            {% for category in categories %}
+            <li><a href="{{ url_for('category', category_id=category[0]) }}">{{ category[1] }}</a></li>
+
+            {% endfor %}
+        </ul>
+    </section>
+
+
+    <form action="{{ url_for('search') }}" method="GET">
+        <input type="text" name="q" placeholder="Search products..." required>
+        <button type="submit">Search</button>
+    </form>
+
+
+    <section id="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img src="{{ url_for('static', filename='dog_toy.jpg') }}" alt="Chew Toy">
+            <p>Premium Dog Food - $25.99</p>
+        </div>
+        <div class="product">
+            <img src="{{ url_for('static', filename='dog_food.jpg') }}" alt="Dog Food">
+            <p>Chew Toy - $8.50</p>
+        </div>
+        <div class="product">
+            <img src="{{ url_for('static', filename='cat_food.jpg') }}" alt="Cat Food">
+            <p>Gourmet Cat Food - $20.99</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pet Store. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

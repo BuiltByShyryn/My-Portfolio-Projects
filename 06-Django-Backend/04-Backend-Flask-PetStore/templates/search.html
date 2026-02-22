@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>Search Results 🔍</header>
+    <nav>
+        <a href="{{ url_for('home') }}">Home</a>
+        <a href="{{ url_for('cart') }}">Cart</a>
+        <a href="{{ url_for('login') }}">Login</a>
+    </nav>
+
+
+    <form action="{{ url_for('search') }}" method="GET">
+        <input type="text" name="q" placeholder="Search for products...">
+        <button type="submit">Search</button>
+    </form>
+    
+
+
+    <div class="container">
+        <h2>Results for "{{ request.args.get('q', '') }}"</h2>
+        {% if results %}
+            <ul>
+                {% for product in results %}
+                    <li>
+                        {{ product[1] }} - ${{ product[2] }}
+                        <a href="{{ url_for('add_to_cart', product_id=product[0]) }}">Add to Cart</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No products found.</p>
+        {% endif %}
+    </div>
+</body>
+</html>
