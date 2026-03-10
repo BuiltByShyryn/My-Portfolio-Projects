@@ -1,0 +1,286 @@
+.overlay {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;     /* don’t block clicks when hidden */
+  transition: opacity 0.6s ease;
+  z-index: 10;
+}
+
+.overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+button {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #f0f0f0;
+}
+img {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  
+}
+
+.overlay .cart {
+  position: absolute;
+  width: 385px;
+  background-color: #fff;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: -100%;
+  padding: 32px 30px 30px;
+  transition: 0.5s;
+  
+}
+
+.cart h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+}
+
+.cart__close {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  background-color: #cbcbcb;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.cart__close::before {
+  content: "";
+  display: block;
+  width: 1.5px;
+  height: 10px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.cart__close::after {
+  content: "";
+  display: block;
+  width: 1.5px;
+  height: 10px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.overlay.active {
+  opacity: 1;
+  top: 0;
+}
+
+.overlay.active .cart {
+  right: 0;
+  transition: 0.5s;
+}
+.cart__elements {
+  margin-top: 30px;
+  overflow-y: auto;
+  
+  scrollbar-width: 1px;
+  
+  flex: 1;
+ 
+}
+.cart__elements::-webkit-scrollbar {
+  display: none;
+}
+
+.cart__product {
+  width: 100%;
+  height: 119px;
+  border-radius: 20px;
+  border: 1px solid #f2f2f2;
+  padding: 30px 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product__img {
+  margin-right: 30px;
+}
+.product__img {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.product__img img {
+  width: 150%;
+  height: 150%;
+}
+.product__desc {
+  margin-right: 12px;
+}
+.product__desc h3 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.product__desc p {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 8px;
+}
+.product__delete button {
+  background-color: transparent;
+  border: 1px solid #f2f2f2;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.product__delete button:hover {
+  border: 1px solid #dbdbdb;
+}
+.amount_box{
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  padding: 10px;
+  bottom: 0;
+  flex-shrink: 0; 
+  margin-top: auto;
+  padding: 10px 20px;
+}
+.amount, .tax {
+  display: flex;
+ align-items: flex-end;
+  margin: 8px 0;
+}
+.agree{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 24px 30px 30px;
+ 
+  
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.btn__move{
+  display: flex;
+align-items: center;
+width: 325px;
+height: 55px;
+margin-top: 24px;
+
+}
+.dots{
+  flex-grow: 1;
+  border-bottom: 1px dotted #DFDFDF;
+  margin: 0 8px;     
+height: 1px;
+}
+.total{
+  color:  black;
+  font-weight: 700;
+}
+
+.empty__box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 225px;
+  height: 285px;
+  margin: 370px 50px 369px;
+}
+.empty__box img {
+  width: 120px;
+  height: 120px;
+  margin: 26px 26px 21px;
+  
+}
+.topic
+{
+  color: #000000;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 100%;
+  margin: 21px 26px;
+ 
+
+}
+.desc{
+  text-align: center;
+  width: 285px;
+  height: 48px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  align-items: center;
+  opacity: 40%;
+  line-height: 24px;
+  margin-top: 0px;
+
+}
+.empty__box .back{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   width: 245px;
+  height: 55px;
+  border: none;
+  border-radius: 18px;
+  background-color: #9DD458;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 40px 0px;
+  padding: 20px;
+}
+
+.back img {
+  height: 12px;
+  width: 13.71px;
+  border: 2px;
+  margin: 4px 16px;
+}
+.agree img {
+  height: 12px;
+  width: 13.71px;
+  border: 2px;
+  margin: 4px 16px;
+}
+.topic-1
+{
+  color: #87C20A;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 100%;
+  margin: 21px 26px;
+  text-align: center;
+width: 189px;
+height: 27px;
+}
