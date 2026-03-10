@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+ 
+ font-size: 20px;
+ font-weight: 500;
+  
+}
+
+body {
+  background: linear-gradient(135deg, #f8e7f6, #fde2e4, #fcd5ce);
+  background-size: 200% 200%;
+  animation: shimmer 10s ease infinite;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

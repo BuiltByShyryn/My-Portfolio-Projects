@@ -1,0 +1,32 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box__container {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    gap: 20px;
+}
+.list h4 {
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 10px 20px;
+    transition: 0.3s;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+    padding: 10px 20px ;
+    
+}
+
+.list h4:hover {
+    color: rgb(0, 0, 0);
+    background-color: #ABBED1;
+    transform: scale(1.05); 
+}
