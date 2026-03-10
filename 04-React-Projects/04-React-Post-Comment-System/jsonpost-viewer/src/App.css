@@ -1,0 +1,15 @@
+#root {
+  background: linear-gradient(135deg, #ffe6f0 0%, #e0f7ff 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  background-color: #fefefe; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
