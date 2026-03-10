@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9709325-45FF-4FA6-B200-102D5E3BF547}|WindowsFormsApp7.csproj|c:\\users\\nikak\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\windowsformsapp7\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9709325-45FF-4FA6-B200-102D5E3BF547}|WindowsFormsApp7.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9709325-45FF-4FA6-B200-102D5E3BF547}|WindowsFormsApp7.csproj|c:\\users\\nikak\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\windowsformsapp7\\bigpurchasediscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9709325-45FF-4FA6-B200-102D5E3BF547}|WindowsFormsApp7.csproj|solutionrelative:bigpurchasediscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9709325-45FF-4FA6-B200-102D5E3BF547}|WindowsFormsApp7.csproj|c:\\users\\nikak\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\windowsformsapp7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E9709325-45FF-4FA6-B200-102D5E3BF547}|WindowsFormsApp7.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9709325-45FF-4FA6-B200-102D5E3BF547}|WindowsFormsApp7.csproj|c:\\users\\nikak\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\windowsformsapp7\\nodiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9709325-45FF-4FA6-B200-102D5E3BF547}|WindowsFormsApp7.csproj|solutionrelative:nodiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9709325-45FF-4FA6-B200-102D5E3BF547}|WindowsFormsApp7.csproj|c:\\users\\nikak\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\windowsformsapp7\\discount3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9709325-45FF-4FA6-B200-102D5E3BF547}|WindowsFormsApp7.csproj|solutionrelative:discount3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9709325-45FF-4FA6-B200-102D5E3BF547}|WindowsFormsApp7.csproj|C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\discountcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9709325-45FF-4FA6-B200-102D5E3BF547}|WindowsFormsApp7.csproj|solutionrelative:discountcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9709325-45FF-4FA6-B200-102D5E3BF547}|WindowsFormsApp7.csproj|c:\\users\\nikak\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\windowsformsapp7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9709325-45FF-4FA6-B200-102D5E3BF547}|WindowsFormsApp7.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9709325-45FF-4FA6-B200-102D5E3BF547}|WindowsFormsApp7.csproj|c:\\users\\nikak\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\windowsformsapp7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9709325-45FF-4FA6-B200-102D5E3BF547}|WindowsFormsApp7.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9709325-45FF-4FA6-B200-102D5E3BF547}|WindowsFormsApp7.csproj|c:\\users\\nikak\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\windowsformsapp7\\coupondiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9709325-45FF-4FA6-B200-102D5E3BF547}|WindowsFormsApp7.csproj|solutionrelative:coupondiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9709325-45FF-4FA6-B200-102D5E3BF547}|WindowsFormsApp7.csproj|C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\discountstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9709325-45FF-4FA6-B200-102D5E3BF547}|WindowsFormsApp7.csproj|solutionrelative:discountstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T07:31:35.665Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BigPurchaseDiscount.cs",
+              "DocumentMoniker": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\BigPurchaseDiscount.cs",
+              "RelativeDocumentMoniker": "BigPurchaseDiscount.cs",
+              "ToolTip": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\BigPurchaseDiscount.cs",
+              "RelativeToolTip": "BigPurchaseDiscount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T07:28:44.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Discount3.cs",
+              "DocumentMoniker": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\Discount3.cs",
+              "RelativeDocumentMoniker": "Discount3.cs",
+              "ToolTip": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\Discount3.cs",
+              "RelativeToolTip": "Discount3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T07:28:23.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CouponDiscount.cs",
+              "DocumentMoniker": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\CouponDiscount.cs",
+              "RelativeDocumentMoniker": "CouponDiscount.cs",
+              "ToolTip": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\CouponDiscount.cs",
+              "RelativeToolTip": "CouponDiscount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T07:28:00.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NoDiscount.cs",
+              "DocumentMoniker": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\NoDiscount.cs",
+              "RelativeDocumentMoniker": "NoDiscount.cs",
+              "ToolTip": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\NoDiscount.cs",
+              "RelativeToolTip": "NoDiscount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T07:27:36.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DiscountContext.cs",
+              "DocumentMoniker": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\DiscountContext.cs",
+              "RelativeDocumentMoniker": "DiscountContext.cs",
+              "ToolTip": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\DiscountContext.cs",
+              "RelativeToolTip": "DiscountContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T08:48:00.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T07:31:20.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwDAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T07:29:33.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T07:35:25.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DiscountStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\DiscountStrategy.cs",
+              "RelativeDocumentMoniker": "DiscountStrategy.cs",
+              "ToolTip": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\c\u002B\u002B project folder\\WindowsFormsApp7\\DiscountStrategy.cs",
+              "RelativeToolTip": "DiscountStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T08:48:41.685Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
