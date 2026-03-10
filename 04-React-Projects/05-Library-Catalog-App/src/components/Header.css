@@ -1,0 +1,40 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    padding: 20px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.header__buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    display: block;
+}
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
