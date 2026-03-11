@@ -1,0 +1,60 @@
+import tkinter as tk 
+import json 
+import os
+
+root =tk.Tk()
+root.title = "Saving Programm"
+
+
+data_game = {"score": 0, "clicks": 0}
+file = "clicker.json"
+if os.path.exists(file):
+    with open(file,"r")as f:
+        data_game = json.load(f)
+else:
+    data_game= {"score": 0, "clicks": 0}
+    
+def saving():
+    with open("clicker.json","w")as f:
+        json.dump(data_game, f,)
+    print("Progress saved")
+        
+def load():
+    global data_game
+    if os.path.exists(file):
+        with open(file, "r")as f:
+            data_game = json.load(f)
+            print("progress loaded:", data_game)
+            display()
+    else:
+        print("No save file found")
+def display():
+    label_score.config(text=f"Score:{data_game['score']}")
+    label_clicks.config(text=f"Clicks: {data_game['clicks']}")
+
+def click():
+    global data_game 
+    data_game["clicks"] += 1
+    data_game["score"] += 40
+    label_clicks.config(text = f"Clicks: {data_game['clicks']}")
+    label_score.config(text = f"Score:{data_game['score']}")
+
+button = tk.Button(root, text = "Save", command = saving )
+button.pack(pady = 5)
+
+button2 = tk.Button(root, text = "loading game", command = load)
+button2.pack(pady = 10)
+label_score = tk.Label(root, text=f"Score:{data_game['score']}")
+label_score.pack()
+label_clicks = tk.Label(root, text=f"Clicks: {data_game['clicks']}")
+label_clicks.pack()
+
+click_button = tk.Button(root, text="Click: 0" , command = click)
+click_button.pack(pady = 15)
+
+
+
+
+
+
+root.mainloop()
