@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Amazing Products</title>
+</head>
+<body>
+    <h1>Check out Our Products!</h1>
+    <a href="/products/add">Add New Product</a>
+    <ul>
+        {% for product in products %}
+        <li>
+            <h2>{{ product[1] }}</h2>
+            <p>{{ product[2] }}</p>
+            <p>Price: ${{ product[3] }}</p>
+            <p>In Stock: {{ product[4] }}</p>
+            <a href="/products/{{ product[0] }}">See More Details</a>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
