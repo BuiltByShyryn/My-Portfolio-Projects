@@ -1,0 +1,26 @@
+from flask import Flask, render_template_string
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return render_template_string(open('index.html').read())
+
+@app.route('/contact')
+def contact():
+    return render_template_string(open('index.html').read(), page="contact")
+
+@app.route('/gallery')
+def gallery():
+    return render_template_string(open('index.html').read(), page="gallery")
+
+@app.route('/login')
+def login():
+    return render_template_string(open('index.html').read(), page="login")
+
+@app.route('/register')
+def register():
+    return render_template_string(open('index.html').read(), page="register")
+
+if __name__ == '__main__':
+    app.run(debug=True)
