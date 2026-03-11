@@ -1,0 +1,162 @@
+[
+    {
+        "order_id": 10541,
+        "date": "01.12.2024",
+        "client": {
+            "name": "Аян Токтаров",
+            "email": "ayan.toktarov@mail.kz"
+        },
+        "cart": [
+            {
+                "name": "Смарт-часы",
+                "price": 89990,
+                "quantity": 1
+            },
+            {
+                "name": "Наушники Bluetooth",
+                "price": 45000,
+                "quantity": 2
+            }
+        ]
+    },
+    {
+        "order_id": 10542,
+        "date": "01.12.2024",
+        "client": {
+            "name": "Сара Бекмуханова",
+            "email": "sara.bekmukh@mail.kz"
+        },
+        "cart": [
+            {
+                "name": "Ноутбук Acer Aspire 5",
+                "price": 1500000,
+                "quantity": 1
+            },
+            {
+                "name": "Клавиатура Logitech G213",
+                "price": 120000,
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "order_id": 10543,
+        "date": "01.12.2024",
+        "client": {
+            "name": "Жанна Нурмуханова",
+            "email": "zhanna.nurmukh@mail.kz"
+        },
+        "cart": [
+            {
+                "name": "Смарт-часы",
+                "price": 89990,
+                "quantity": 1
+            },
+            {
+                "name": "Наушники Bluetooth",
+                "price": 45000,
+                "quantity": 1
+            },
+            {
+                "name": "Ноутбук Acer Aspire 5",
+                "price": 1500000,
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "order_id": 10544,
+        "date": "02.12.2024",
+        "client": {
+            "name": "Ерлан Абдуллин",
+            "email": "yerlan.abdullin@mail.kz"
+        },
+        "cart": [
+            {
+                "name": "Наушники Bluetooth",
+                "price": 45000,
+                "quantity": 3
+            }
+        ]
+    },
+    {
+        "order_id": 10545,
+        "date": "02.12.2024",
+        "client": {
+            "name": "Динара Умарова",
+            "email": "dinara.umarova@mail.kz"
+        },
+        "cart": [
+            {
+                "name": "Клавиатура Logitech G213",
+                "price": 120000,
+                "quantity": 2
+            }
+        ]
+    },
+    {
+        "order_id": 10546,
+        "date": "03.12.2024",
+        "client": {
+            "name": "Марат Шарипов",
+            "email": "marat.sharipov@mail.kz"
+        },
+        "cart": [
+            {
+                "name": "Смарт-часы",
+                "price": 89990,
+                "quantity": 2
+            }
+        ]
+    },
+    {
+        "order_id": 10547,
+        "date": "03.12.2024",
+        "client": {
+            "name": "Сабина Кайратова",
+            "email": "sabina.kayrat@mail.kz"
+        },
+        "cart": [
+            {
+                "name": "Ноутбук Acer Aspire 5",
+                "price": 1500000,
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "order_id": 10548,
+        "date": "04.12.2024",
+        "client": {
+            "name": "Нуржан Султанов",
+            "email": "nurjan.sultanov@mail.kz"
+        },
+        "cart": [
+            {
+                "name": "Клавиатура Logitech G213",
+                "price": 120000,
+                "quantity": 1
+            },
+            {
+                "name": "Наушники Bluetooth",
+                "price": 45000,
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "order_id": 10549,
+        "date": "06.12.2024",
+        "client": {
+            "name": "Алма Каримова",
+            "email": "alma.karimova@mail.kz"
+        },
+        "cart": [
+            {
+                "name": "Смарт-часы",
+                "price": 89990,
+                "quantity": 3
+            }
+        ]
+    }
+]
