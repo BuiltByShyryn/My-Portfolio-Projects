@@ -1,0 +1,8 @@
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ParentApp\bin\Debug\ParentApp.exe.config
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ParentApp\bin\Debug\ParentApp.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ParentApp\bin\Debug\ParentApp.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ParentApp\obj\Debug\ParentApp.csproj.AssemblyReference.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ParentApp\obj\Debug\ParentApp.csproj.CoreCompileInputs.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ParentApp\obj\Debug\ParentApp.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ParentApp\obj\Debug\ParentApp.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ParentApp\obj\Debug\ParentApp.exe.config

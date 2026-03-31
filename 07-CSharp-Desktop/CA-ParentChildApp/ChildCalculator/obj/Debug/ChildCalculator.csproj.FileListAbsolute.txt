@@ -1,0 +1,7 @@
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ChildCalculator\bin\Debug\ChildCalculator.exe.config
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ChildCalculator\bin\Debug\ChildCalculator.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ChildCalculator\bin\Debug\ChildCalculator.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ChildCalculator\obj\Debug\ChildCalculator.csproj.AssemblyReference.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ChildCalculator\obj\Debug\ChildCalculator.csproj.CoreCompileInputs.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ChildCalculator\obj\Debug\ChildCalculator.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ChildCalculator\obj\Debug\ChildCalculator.pdb
