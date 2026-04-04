@@ -1,0 +1,7 @@
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Mutex_Task1\bin\Debug\Homework_Mutex_Task1.exe.config
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Mutex_Task1\bin\Debug\Homework_Mutex_Task1.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Mutex_Task1\bin\Debug\Homework_Mutex_Task1.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Mutex_Task1\obj\Debug\Homework_Mutex_Task1.csproj.AssemblyReference.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Mutex_Task1\obj\Debug\Homework_Mutex_Task1.csproj.CoreCompileInputs.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Mutex_Task1\obj\Debug\Homework_Mutex_Task1.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Mutex_Task1\obj\Debug\Homework_Mutex_Task1.pdb

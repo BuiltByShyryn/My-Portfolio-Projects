@@ -1,0 +1,15 @@
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\DancingProgressBars\bin\Debug\DancingProgressBars.exe.config
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\DancingProgressBars\bin\Debug\DancingProgressBars.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\DancingProgressBars\bin\Debug\DancingProgressBars.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\DancingProgressBars\obj\Debug\DancingProgressBars.csproj.AssemblyReference.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\DancingProgressBars\obj\Debug\MainWindow.g.cs
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\DancingProgressBars\obj\Debug\App.g.cs
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\DancingProgressBars\obj\Debug\DancingProgressBars_MarkupCompile.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\DancingProgressBars\obj\Debug\DancingProgressBars_MarkupCompile.lref
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\DancingProgressBars\obj\Debug\MainWindow.baml
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\DancingProgressBars\obj\Debug\DancingProgressBars.g.resources
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\DancingProgressBars\obj\Debug\DancingProgressBars.Properties.Resources.resources
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\DancingProgressBars\obj\Debug\DancingProgressBars.csproj.GenerateResource.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\DancingProgressBars\obj\Debug\DancingProgressBars.csproj.CoreCompileInputs.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\DancingProgressBars\obj\Debug\DancingProgressBars.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\DancingProgressBars\obj\Debug\DancingProgressBars.pdb
