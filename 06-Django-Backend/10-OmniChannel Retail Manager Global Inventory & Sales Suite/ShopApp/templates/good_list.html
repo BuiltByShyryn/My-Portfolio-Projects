@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+</head>
+<body>
+    <h2>Good List</h2>
+
+    <p>
+    {% for good in data %}
+    <br><a href="{% url 'good_info' good.pk%}">{{good.name}}</a>
+    <br>{{good}} - {{good.name}}
+    {% endfor %}
+</p>
+    
+</body>
+</html>

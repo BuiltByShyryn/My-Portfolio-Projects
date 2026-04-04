@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static  %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+<link rel="stylesheet"  type = "text/css" href="{% static 'style.css' %}">
+
+</head>
+<body>
+    <h2>{{ title }}</h2>
+
+
+    <form method="post" action="." enctype = "" >
+        {% csrf_token %}
+        <br>{{form.name.label}}:{{ form.name }}
+        <br>{{form.country.label}}: {{form.country}}
+        <br>{{form.info.label}}: {{form.info}}
+        <br>{{form.big_logo.label}}: {{form.big_logo}}
+        <br>{{form.small_logo.label}}: {{form.small_logo}}
+        
+        <p><button type="submit" >Save</button></p>
+
+    </form>
+    <a href="{% url 'home' %}"><button type="button">Home Page</button></a>
+    <a href="{% url 'brand' %}"><button type="button">Brands List</button></a>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h2>Brand List</h2>
+<p>
+    {% for  brand in data %}
+
+    <br> <a href = "{% url 'brand_info' brand.pk %}"> {{brand.fio}}</a>
+    <br> {{brand}} - {{brand.name}}
+
+    {% endfor %}
+</p>
+
+<button onclick="history.back()">Get back</button>
+</body>
+</html>

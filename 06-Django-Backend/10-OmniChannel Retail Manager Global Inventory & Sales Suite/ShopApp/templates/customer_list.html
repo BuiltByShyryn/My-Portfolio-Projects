@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+</head>
+<body>
+    
+<h2>Customer List</h2>
+
+<p>
+    {% for customer in data %}
+    <br><a href = "{% url  'customer_info' customer.pk %}">{{customer}}</a>
+    <br>{{customer}} - {{customer.fio}}
+    {% endfor %}
+</p>
+    
+</body>
+</html>

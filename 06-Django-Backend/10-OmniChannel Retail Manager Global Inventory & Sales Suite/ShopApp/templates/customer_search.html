@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+</head>
+<body>
+    <h2>{{title}}</h2>
+    <form method="get" action=".">
+        {% csrf_token %}
+        <br> {{ form.select_field.label }} :{{ form.select_field }}
+        <br> {{form.text.label}} : {{form.text}}
+        <input type="submit" value="Search"/>
+
+
+
+    </form>
+    <h3>{{ title2 }}</h3> {% if data %}
+
+        <hr>
+        <p>Search Result</p>
+       {% for customer in data %}
+            <br> <a href="{% url 'customer_info' customer.pk %}">{{customer}}</a>
+        {% endfor %}
+
+    {% endif %}
+
+
+  
+    {% if form.errors %}
+        <hr>
+        <p style="color: red;"><strong>Please fix the following:</strong></p>
+        
+        {% for field in form %}
+            {% for err in field.errors %}
+                <br><span style="color: red;">{{ err }}</span>
+            {% endfor %}
+        {% endfor %}
+
+    {% endif %}
+    <p>
+    <button onclick="history.back()">Back</button>
+    <a href="{% url 'home' %}"><button type="button">Home Page</button></a>
+    </p>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <h2>Info About the Good {{ data }}</h2>
+    <br /><p>Name of the good: {{ data.name }}</p>
+    <br /><p>Country: {{ data.id_brand.country }}</p>
+    <br /><p>Count: {{ data.count }}</p>
+    <br /><p>Price: {{ data.price }}</p>
+    <br /><p>Info: {{ data.info }}</p>
+    <br /><p>Price: {{ data.price }}</p>
+    <br />
+    {% if data.image %}
+      <p>Image:</p>
+      <img src="{{ data.image.url }}" width="200" />
+    {% else %}
+      <p>
+        <i>No photo available for this entry.</i>
+      </p>
+    {% endif %}
+    <br />
+
+    <br />
+    <button onclick="history.back()">Back</button>
+  </body>
+</html>

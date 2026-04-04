@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ title }}</title>
+</head>
+
+<body>
+  <h2>Home page of the store</h2>
+  <hr />
+  
+  <p>
+    <a href="{% url 'brand' %}">List of companies</a> | 
+    <a href="{% url 'brand_search' %}"><strong>Search Brands</strong></a> |
+    <a href="{% url 'brand_form' %}"><strong>Add Brand</strong></a> | 
+    <a href="{% url 'brand_form2' %}"><strong>Add Brand_class</strong></a>
+  </p>
+
+  <p>
+    <a href="{% url 'goods' %}">List of goods</a> |
+ 
+    <a href="{% url 'goods_form' %}"><strong>Add Good</strong></a> | 
+    <a href="{% url 'goods_form2' %}"><strong>Add Good_class</strong></a>
+  
+  </p>
+
+  <p>
+    <a href="{% url 'customers' %}">List of customers</a> | 
+    <a href="{% url 'customer_search' %}"><strong>Search Customers</strong></a> |
+    <a href="{% url 'customer_form' %}"><strong>Add Customer</strong></a>
+  
+  </p>
+
+  <br /> 
+  <a href="{% url 'admin:index' %}">Admin Page</a>
+  <hr />
+</body>
+
+</html>

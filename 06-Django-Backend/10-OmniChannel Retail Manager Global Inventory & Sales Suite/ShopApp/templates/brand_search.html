@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+</head>
+<body>
+    <h2>{{title}}</h2>
+    <form method="get" action=".">
+        {% csrf_token %}
+        <br> {{ form.select_field.label }} :{{ form.select_field }}
+        <br> {{form.text.label}} : {{form.text}}
+        <input type="submit" value="Search"/>
+
+
+
+    </form>
+    <h3>{{ title2 }}</h3> {% if data %}
+
+        <hr>
+        <p>Search Result</p>
+        {% for brand in data %}
+    
+        <br> <a href="{% url 'brand_info' brand.pk %}">{{brand}}</a>
+            
+        {% endfor %}
+
+    {% endif %}
+
+
+    <!-- If u need error complator like checking for the errors -->
+    {% if form.errors %}
+
+        <hr>
+        {% for err in form.errors %}
+            <br>{{err}}
+        {% endfor %}
+    {% endif %}
+    <p>
+    <button onclick="history.back()">Back</button>
+    <a href="{% url 'home' %}"><button type="button">Home Page</button></a>
+    </p>
+</body>
+</html>

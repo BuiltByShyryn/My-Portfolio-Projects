@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+</head>
+<body>
+
+    <h2>Info About the Customer {{data}}</h2>
+    <br><p>
+        Name of the customer: {{data.fio}}
+    </p>
+    <br><p>IIN: {{data.iin}}</p>
+    <br><p>Phone: {{data.phone}}</p>
+    <br><p>Email: {{data.email}}</p>
+    <br>
+    {% if data.image %}
+
+    <img src="data:image/jpeg;base64,{{ data.image.decode }}" alt="Photo" style="width:200px;">
+
+    {% else %}
+    <p>No Photo Available</p>
+    {% endif %}
+    <br>
+    
+    <br>
+    <button onclick="history.back()" >Back</button>
+</body>
+</html>
