@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users info</title>
+</head>
+
+<body>
+    <h2>Users info</h2>
+
+
+    {% if users %}
+    <h5>Users</h5>
+
+    <div>
+        <ul>
+            {%for u in users %}
+            <li>{{u}} : {{u.groups}}</li>
+            {%endfor%}
+        </ul>
+    </div>
+    {%endfor%}
+
+
+    {% if groups%}
+    <h5>Groups</h5>
+    <div>
+        <ul>
+            {%for g in groups%}
+            <li>{{g}}</li>
+            {%endfor%}
+        </ul>
+    </div>
+    {%endfor%}
+
+</body>
+
+</html>

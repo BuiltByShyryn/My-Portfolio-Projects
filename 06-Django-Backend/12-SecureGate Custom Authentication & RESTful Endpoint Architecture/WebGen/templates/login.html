@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter to the system </title>
+</head>
+
+<body>
+    <form method='post' action='.'>
+        {% csrf_token %}
+        <p>{{form.username.label}} :{{form.username}}</p>
+        <p>{{form.password.label}}: {{form.password}}</p>
+
+        {% comment %} {{form.as_p}} {% endcomment %}
+        <input type="submit" value="Enter">
+    </form>
+    <a href="{% url 'home' %}">To the main page</a>
+</body>
+
+</html>
