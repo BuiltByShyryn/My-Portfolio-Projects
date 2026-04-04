@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+{% for student in page_obj %}
+    <div>
+        <strong>{{ student.last_name }} {{ student.first_name }}</strong> 
+        <a href="{% url 'student_detail' student.id %}">[Open Details]</a>
+    </div>
+    <hr>
+{% endfor %}
+
+<div style="margin-top: 20px;">
+    {% if page_obj.has_previous %}
+        <a href="?page={{ page_obj.previous_page_number }}">⬅️ Back</a>
+    {% endif %}
+
+    <span> (Page {{ page_obj.number }}) </span>
+
+    {% if page_obj.has_next %}
+        <a href="?page={{ page_obj.next_page_number }}">Next ➡️</a>
+    {% endif %}
+</div>
+</div>
+</body>
+</html>
+
+
