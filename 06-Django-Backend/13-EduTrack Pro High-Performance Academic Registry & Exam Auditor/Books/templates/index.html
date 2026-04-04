@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ Title }}</title>
+  </head>
+  <body>
+    <h1>{{ Text }}</h1>
+
+    {% if user.is_authenticated %}
+      <h3>Hello {{ user.username }}</h3>
+      <p>
+        User level:
+        {% if user.is_superuser %}
+          SUPERUSER
+        {% elif user.is_staff %}
+          STAFF, POWER USER
+        {% else %}
+          ORDINARY USER
+        {% endif %}
+      </p>
+
+      <p>
+        <a href="{% url 'my_logout' %}">Close</a> |
+        <a href="{% url 'password_change' %}">Change Password</a>
+      </p>
+
+    {% else %}
+      <p>ANONYMOUS</p>
+      <p>
+        <a href="{% url 'my_login' %}">Enter</a> |
+        <a href="{% url 'password_reset' %}">Forgot Password?</a>
+      </p>
+    {% endif %}
+
+    <h2>All users</h2>
+    <ul>
+      {% for user in all_users %}
+        <li>{{ user.username }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
