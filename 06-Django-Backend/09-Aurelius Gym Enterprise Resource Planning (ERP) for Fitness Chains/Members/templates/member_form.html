@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}
+  Add New Member
+{% endblock %}
+
+{% block content %}
+  <div class="page">
+    <div class="container form-container">
+      <div class="form-header">
+        <h1>🏋️ Add New Member</h1>
+        <p>Fill out the profile to register a new gym client</p>
+      </div>
+
+      <form method="POST" class="member-form" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="form-fields">{{ form.as_p }}</div>
+        <button type="submit" class="btn confirm-btn">Confirm & Save Member 💾</button>
+      </form>
+
+      <div class="form-footer">
+        <a href="{% url 'member_list' %}" class="btn cancel-btn">← Cancel and go back</a>
+      </div>
+    </div>
+  </div>
+{% endblock %}

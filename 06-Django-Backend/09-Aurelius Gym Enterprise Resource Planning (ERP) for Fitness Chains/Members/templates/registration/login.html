@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager Signup | {{ title }}</title>
+    <style>
+       
+        form p {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        form input {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .helptext {
+            grid-column: 1 / -1;
+            font-size: 11px;
+            color: #888;
+            margin-top: -5px;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+
+    <div style="background: white; padding: 40px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); width: 100%; max-width: 500px; text-align: center;">
+        
+        <div style="margin-bottom: 30px;">
+            <h1 style="color: #333; margin: 0; font-size: 28px;">Manager Signup 🛡️</h1>
+            <p style="color: #666; font-size: 14px; margin-top: 10px;">Create a new staff profile to manage the gym</p>
+        </div>
+
+        {% if error %}
+            <div style="padding: 12px; background: #fff0f0; border: 1px solid #ffcccc; color: #d8000c; margin-bottom: 20px; border-radius: 8px; font-size: 14px; font-weight: 500;">
+                ⚠️ {{ error }}
+            </div>
+        {% endif %}
+
+        <form method="POST" style="display: flex; flex-direction: column; text-align: left;">
+            {% csrf_token %}
+
+            <div style="color: #444;">
+                {{ form.as_p }}
+            </div>
+
+            <button type="submit" style="margin-top: 10px; padding: 14px; background: #007bff; color: white; border: none; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; transition: 0.3s; box-shadow: 0 4px 6px rgba(0, 123, 255, 0.2);">
+                Register New Manager
+            </button>
+        </form>
+
+        <div style="margin-top: 30px; border-top: 1px solid #eee; padding-top: 20px; display: flex; justify-content: space-between; font-size: 14px;">
+            <a href="{% url 'index' %}" style="color: #666; text-decoration: none; font-weight: 500;">← Back to Home</a>
+            <a href="{% url 'login' %}" style="color: #007bff; text-decoration: none; font-weight: bold;">Already have an account? Login</a>
+        </div>
+    </div>
+
+</body>
+</html>

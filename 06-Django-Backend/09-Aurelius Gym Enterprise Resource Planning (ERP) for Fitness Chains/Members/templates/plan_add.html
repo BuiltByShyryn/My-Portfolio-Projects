@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Create New Plan{% endblock %}
+
+{% block content %}
+
+<div class="page">
+
+  <div class="container form-container">
+
+    <div class="form-header">
+      <h1>✨ Create New Plan</h1>
+      <p>Add a new membership tier to the gym</p>
+    </div>
+
+    <form method="POST" class="plan-form">
+      {% csrf_token %}
+      <div class="form-fields">
+        <label for="id_branch">Select Branch:</label>
+        {{ form.as_p }}
+      </div>
+      <button type="submit" class="btn plan-btn">Add to Catalog 💳</button>
+    </form>
+
+    <div class="form-footer">
+      <a href="{% url 'plan_list' %}" class="btn cancel-btn">← Back to Plans</a>
+    </div>
+
+  </div>
+
+</div>
+
+{% endblock %}

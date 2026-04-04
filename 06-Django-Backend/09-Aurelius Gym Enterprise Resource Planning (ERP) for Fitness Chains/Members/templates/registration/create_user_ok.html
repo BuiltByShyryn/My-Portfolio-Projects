@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration OK</title>
+</head>
+<body style="font-family: sans-serif; padding: 20px;">
+    <div style="background: #e7ffe7; padding: 20px; border: 1px solid green;">
+        <h1>Registration Successful! </h1>
+        <p>New Manager Created: <strong>{{ newa_user_name }}</strong></p>
+        <p>Your ID Number is: {{ id_new_user }}</p>
+        <hr>
+        <a href="{% url 'login' %}">Go to Login Page</a>
+    </div>
+</body>
+</html>

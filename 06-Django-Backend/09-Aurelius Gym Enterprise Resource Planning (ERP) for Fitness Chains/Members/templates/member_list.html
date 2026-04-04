@@ -1,0 +1,120 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+  Current Gym Members
+{% endblock %}
+
+{% block content %}
+  <div class="page">
+    <div class="container">
+      <h1 class="title" style="text-align:center;">🏋️ Current Gym Members</h1>
+
+      {% if messages %}
+        {% for message in messages %}
+          <div class="message success-msg">{{ message }}</div>
+        {% endfor %}
+      {% endif %}
+
+      <div class="search-bar">
+        <form method="GET" action="">
+          <input type="text" name="search" placeholder="Search..." value="{{ search_query }}" class="search-input" />
+          <button type="submit" class="btn primary search-btn">Search</button>
+          <a href="{% url 'member_list' %}" class="btn cancel-btn search-clear">Clear</a>
+        </form>
+      </div>
+
+      <table class="member-table">
+        <thead>
+          <tr>
+            <th>Name & Photo</th>
+            <th>IIN</th>
+            <th>Expiration</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for m in data %}
+            <tr>
+              <td class="name-cell">
+                <a href="{% url 'member_detail' m.pk %}" class="table-link">{{ m.first_name }} {{ m.last_name }}</a>
+
+                <div class="photo-card">
+                  {% if m.photo %}
+                    <img src="{{ m.photo.url }}" alt="{{ m.first_name }}" width="100" />
+                  {% else %}
+                    <img src="{% static 'images/default_member.png' %}" alt="Default Member" width="100">
+                  {% endif %}
+                  {% if m.plan %}
+                    <p>Plan: {{ m.plan.name }}</p>
+                    <p>Expires: {{ m.exp_date|date:'Y-m-d' }}</p>
+                  {% endif %}
+                </div>
+              </td>
+              <td class="mono">{{ m.iin }}</td>
+              <td class="mono">
+                {% if m.plan %}
+                  {{ m.exp_date|date:'Y-m-d' }}
+                {% else %}
+                  —
+                {% endif %}
+              </td>
+              <td class="table-actions">
+                {% if user.is_authenticated %}
+                  <a href="{% url 'member_edit' m.pk %}" class="edit-link">Edit ✏️</a>
+                  <form action="{% url 'member_delete' m.pk %}" method="POST" class="inline-form" onsubmit="return confirm('Are you sure you want to delete them?');">
+                    {% csrf_token %}
+                    <button type="submit" class="delete-btn">Delete 🗑️</button>
+                  </form>
+                {% else %}
+                  <span class="not-auth">Login to Edit</span>
+                {% endif %}
+              </td>
+            </tr>
+          {% empty %}
+            <tr>
+              <td colspan="4" style="text-align:center;">No members found.</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <div class="pagination">
+        {% if data.has_previous %}
+          <a href="?page={{ data.previous_page_number }}&search={{ search_query }}">← Previous</a>
+        {% endif %}
+
+        <span>Page {{ data.number }} of {{ data.paginator.num_pages }}</span>
+
+        {% if data.has_next %}
+          <a href="?page={{ data.next_page_number }}&search={{ search_query }}">Next →</a>
+        {% endif %}
+      </div>
+
+      <div class="table-footer">
+        <a href="{% url 'index' %}" class="btn cancel-btn">← Back to Dashboard</a>
+        <a href="{% url 'member_add' %}" class="btn confirm-btn">+ Add New Member</a>
+      </div>
+
+      <div class="staff-access">
+        <p>Staff Portal Access</p>
+        {% if user.is_authenticated %}
+          <span class="auth-status">✔ Authenticated</span>
+          <div class="staff-row">
+            <p>Welcome, {{ user.username }}</p>
+            <form action="{% url 'logout' %}" method="post">
+              {% csrf_token %}
+              <button type="submit" class="logout-btn">Logout</button>
+            </form>
+          </div>
+        {% else %}
+          <div class="auth-links">
+            <a href="{% url 'login' %}">Login</a>
+            <span>|</span>
+            <a href="{% url 'signup' %}">Register Manager</a>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+{% endblock %}

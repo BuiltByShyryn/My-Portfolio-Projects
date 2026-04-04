@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}Manager's Plan Catalog{% endblock %}
+
+{% block content %}
+
+<div class="page">
+
+  <div class="container">
+
+    <h1 class="title" style="text-align:center;">🛡️ Manager's Plan Catalog</h1>
+    <p class="subtitle" style="text-align:center;">Manage and review current gym membership offerings</p>
+
+    <div class="plan-grid">
+      {% for p in plans %}
+        <div class="plan-card">
+          <h2>{{ p.name }}</h2>
+          <p class="plan-price">{{ p.price }} KZT</p>
+          <p class="plan-duration">⏱️ {{ p.duration_months }} Months</p>
+
+          <ul class="plan-features">
+            <li>✅ Full Gym Access</li>
+            <li>✅ Manager Approved</li>
+            {% if p.duration_months >= 6 %}
+              <li>⭐ Priority Support</li>
+            {% endif %}
+          </ul>
+
+          <a href="{% url 'plan_delete' p.pk %}" class="btn delete-btn">🗑️ Delete Plan</a>
+        </div>
+      {% empty %}
+        <div class="no-plans">
+          <p>No plans found! Use the Admin panel to add some.</p>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="table-footer">
+      <a href="{% url 'index' %}" class="btn cancel-btn">← Back to Dashboard</a>
+      <a href="{% url 'plan_add' %}" class="btn plan-btn">+ Create New Plan</a>
+      <span class="staff-note">Staff Portal Only</span>
+    </div>
+
+  </div>
+
+</div>
+
+{% endblock %}

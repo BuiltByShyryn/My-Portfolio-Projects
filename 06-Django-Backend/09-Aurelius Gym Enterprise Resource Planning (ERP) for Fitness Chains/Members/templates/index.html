@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block title %}{{ Title }}{% endblock %}
+
+{% block content %}
+
+<div class="page">
+
+  <div class="container">
+
+    <h1 class="title">{{ Title }}</h1>
+    <p class="subtitle">{{ Text }}</p>
+
+    <div class="stats">
+
+      <a href="{% url 'member_list' %}" class="card">
+        <span class="icon">👥</span>
+        <h3 class="number blue counter" data-target="{{ m_count }}">0</h3>
+        <p class="label">Total Members</p>
+        <p class="link">VIEW ALL →</p>
+      </a>
+
+      <div class="card">
+        <span class="icon">📍</span>
+        <h3 class="number green counter" data-target="{{ b_count }}">0</h3>
+        <p class="label">Gym Branches</p>
+      </div>
+
+      <a href="{% url 'plan_list' %}" class="card">
+        <span class="icon">💳</span>
+        <h3 class="number yellow counter" data-target="{{ p_count }}">0</h3>
+        <p class="label">Active Plans</p>
+        <p class="link">VIEW ALL →</p>
+      </a>
+
+    </div>
+
+    <div class="buttons">
+
+      <a href="{% url 'member_list' %}" class="btn primary">
+        Member Directory 👥
+      </a>
+
+      <a href="{% url 'branch_list' %}" class="btn primary">
+        View Gym Branches 🏢
+      </a>
+      <a href="{% url 'plan_list' %}" class="btn secondary">
+        Plan Catalog 💳
+      </a>
+
+    </div>
+
+    <div class="staff">
+
+      <h4 class="staff-title">Staff Access</h4>
+
+      {% if user.is_authenticated %}
+        <div class="staff-row">
+          <p class="welcome">Welcome, {{ user.username }} ✔</p>
+          <form action="{% url 'logout' %}" method="post">
+            {% csrf_token %}
+            <button class="logout-btn" type="submit">Logout</button>
+          </form>
+        </div>
+      {% else %}
+        <div class="auth-links">
+          <a href="{% url 'login' %}">Login</a>
+          <span>|</span>
+          <a href="{% url 'signup' %}">Register Manager</a>
+        </div>
+      {% endif %}
+
+    </div>
+
+  </div>
+
+</div>
+
+{% endblock %}

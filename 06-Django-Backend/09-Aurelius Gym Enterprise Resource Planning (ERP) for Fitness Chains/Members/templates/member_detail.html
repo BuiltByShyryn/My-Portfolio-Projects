@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}{{ member.first_name }} {{ member.last_name }}{% endblock %}
+
+{% block content %}
+
+<div class="page">
+
+  <div class="container">
+
+    <a href="{% url 'member_list' %}" class="btn secondary back-btn">← Back to List</a>
+
+    <div class="member-card">
+      {% if member.photo %}
+        <img src="{{ member.photo.url }}" alt="{{ member.first_name }}" class="member-photo" width="150">
+      {% else %}
+        <img src="{% static 'images/default_member.png' %}" alt="Default Member" class="member-photo" width="150">
+      {% endif %}
+
+      <h1 class="title">{{ member.first_name }} {{ member.last_name }}</h1>
+      <hr>
+      <p><strong>IIN:</strong> {{ member.iin }}</p>
+      <p><strong>Gym Branch:</strong> {{ member.branch.name }}</p>
+      <p><strong>Current Plan:</strong> {{ member.plan.name }}</p>
+      <p><strong>Price:</strong> {{ member.plan.price }} KZT</p>
+      <p><strong>Expiration date:</strong> {{ expiration_date|date:"M d, Y" }}</p>
+      <p><strong>Status:</strong>
+        {% if expiration_date and expiration_date >= today %}
+          <span style="color:green;">Active ✅</span>
+        {% else %}
+          <span style="color:red;">Expired ❌</span>
+        {% endif %}
+      </p>
+    </div>
+
+  </div>
+
+</div>
+
+{% endblock %}

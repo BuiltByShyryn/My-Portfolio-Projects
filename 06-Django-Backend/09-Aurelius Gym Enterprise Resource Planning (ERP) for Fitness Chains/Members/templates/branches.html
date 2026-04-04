@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Gym Branches{% endblock %}
+
+{% block content %}
+<div class="page">
+    <div class="container">
+
+        <h1 class="title">Gym Locations 📍</h1>
+        <p class="subtitle">Management directory for all active branches</p>
+
+        <div class="stats" style="flex-direction: column; gap: 15px;">
+            {% for branch in branches %}
+                <div class="card" style="text-align: left; display: flex; justify-content: space-between; align-items: center; width: 100%; box-sizing: border-box;">
+                    <div>
+                        <span class="icon">🏢</span>
+                        <h3 class="label" style="font-size: 18px; color: #333; margin-top: 5px;">{{ branch.name }}</h3>
+                        <p style="margin: 0; color: #888; font-size: 13px;">{{ branch.address }}</p>
+                    </div>
+                    <span class="blue" style="font-weight: bold;">ACTIVE</span>
+                </div>
+            {% empty %}
+                <div class="card">
+                    <p class="label">No branches found.</p>
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="buttons">
+            <a href="{% url 'index' %}" class="btn secondary">
+                ← Back to Dashboard
+            </a>
+        </div>
+
+        <div class="staff">
+            <h4 class="staff-title">System Info</h4>
+            <p class="welcome" style="color: #666;">Viewing as {{ user.username }}</p>
+        </div>
+
+    </div>
+</div>
+{% endblock %}
