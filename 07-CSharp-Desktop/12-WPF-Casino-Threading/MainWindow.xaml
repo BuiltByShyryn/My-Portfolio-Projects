@@ -1,0 +1,16 @@
+﻿<Window x:Class="Homework_Casino_Semaphore.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Homework_Casino_Semaphore"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="🎰 CASINO DAILY SIMULATOR 🎰" FontSize="24" Margin="0,0,0,20" HorizontalAlignment="Center"/>
+            <Button x:Name="btnStart" Content="START CASINO DAY" Click="btnStart_Click" Width="200" Height="50" Background="DarkGreen" Foreground="White" FontWeight="Bold"/>
+            <TextBlock x:Name="lblStatus" Text="Waiting to start..." Margin="0,10,0,0" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>

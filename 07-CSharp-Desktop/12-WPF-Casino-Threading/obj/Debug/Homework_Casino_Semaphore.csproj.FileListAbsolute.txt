@@ -1,0 +1,16 @@
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Casino_Semaphore\bin\Debug\Homework_Casino_Semaphore.exe.config
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Casino_Semaphore\bin\Debug\Homework_Casino_Semaphore.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Casino_Semaphore\bin\Debug\Homework_Casino_Semaphore.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Casino_Semaphore\obj\Debug\Homework_Casino_Semaphore.csproj.AssemblyReference.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Casino_Semaphore\obj\Debug\MainWindow.g.cs
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Casino_Semaphore\obj\Debug\App.g.cs
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Casino_Semaphore\obj\Debug\Homework_Casino_Semaphore_MarkupCompile.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Casino_Semaphore\obj\Debug\Homework_Casino_Semaphore_MarkupCompile.lref
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Casino_Semaphore\obj\Debug\MainWindow.baml
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Casino_Semaphore\obj\Debug\Homework_Casino_Semaphore.g.resources
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Casino_Semaphore\obj\Debug\Homework_Casino_Semaphore.Properties.Resources.resources
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Casino_Semaphore\obj\Debug\Homework_Casino_Semaphore.csproj.GenerateResource.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Casino_Semaphore\obj\Debug\Homework_Casino_Semaphore.csproj.CoreCompileInputs.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Casino_Semaphore\obj\Debug\Homework_Casino_Semaphore.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Casino_Semaphore\obj\Debug\Homework_Casino_Semaphore.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\Homework_Casino_Semaphore\obj\Debug\Homework_Casino_Semaphore.exe.config
