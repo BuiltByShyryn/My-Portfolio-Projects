@@ -1,0 +1,16 @@
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\HorseRace\bin\Debug\HorseRace.exe.config
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\HorseRace\bin\Debug\HorseRace.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\HorseRace\bin\Debug\HorseRace.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\HorseRace\obj\Debug\HorseRace.csproj.AssemblyReference.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\HorseRace\obj\Debug\MainWindow.g.cs
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\HorseRace\obj\Debug\App.g.cs
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\HorseRace\obj\Debug\HorseRace_MarkupCompile.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\HorseRace\obj\Debug\HorseRace_MarkupCompile.lref
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\HorseRace\obj\Debug\MainWindow.baml
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\HorseRace\obj\Debug\HorseRace.g.resources
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\HorseRace\obj\Debug\HorseRace.Properties.Resources.resources
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\HorseRace\obj\Debug\HorseRace.csproj.GenerateResource.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\HorseRace\obj\Debug\HorseRace.csproj.CoreCompileInputs.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\HorseRace\obj\Debug\HorseRace.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\HorseRace\obj\Debug\HorseRace.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\HorseRace\obj\Debug\HorseRace.exe.config
