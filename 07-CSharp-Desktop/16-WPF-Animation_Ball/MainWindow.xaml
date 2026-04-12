@@ -1,0 +1,36 @@
+﻿<Window x:Class="AnimationWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AnimationWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Button Content="Open new Window(at this thread)" 
+                Margin="5" Padding="5"
+                Click="Button_Click_NewWindow"></Button>
+        <Button Content="Create window ina new thread"
+                Margin="5" Padding="5"
+                Click="Button_Click_NewThread"
+                ></Button>
+        <Button Content="Turn on all the threads(Unpause)"
+                Margin="5" Padding="5"
+                Click="Button_Click_ResumeAll"></Button>
+        <Button Content="Pause all of the threads"
+                Margin="5" Padding="5"
+                Click="Button_Click_PauseAll"></Button>
+        <Button Content="Close all of the threads"
+                Margin="5" Padding="5"
+                Click="Button_Click_CloseAll"></Button>
+
+        <StackPanel>
+        <Label Content="Amount of threads:"></Label>
+            <TextBox x:Name="txtThreadPoolCount" 
+                     VerticalContentAlignment="Center"  Width="350" Height="40"  ></TextBox>
+        </StackPanel>
+        <Button Content="Turn on all threads pool"
+                Margin="5" Padding="5"
+                Click="Button_Click_StartThreadPool"></Button>
+    </StackPanel>
+</Window>
