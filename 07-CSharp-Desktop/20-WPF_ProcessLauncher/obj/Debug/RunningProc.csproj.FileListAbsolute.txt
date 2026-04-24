@@ -1,0 +1,10 @@
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\RunningProc\bin\Debug\RunningProc.exe.config
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\RunningProc\bin\Debug\RunningProc.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\RunningProc\bin\Debug\RunningProc.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\RunningProc\obj\Debug\RunningProc.csproj.AssemblyReference.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\RunningProc\obj\Debug\RunningProc.Form1.resources
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\RunningProc\obj\Debug\RunningProc.Properties.Resources.resources
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\RunningProc\obj\Debug\RunningProc.csproj.GenerateResource.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\RunningProc\obj\Debug\RunningProc.csproj.CoreCompileInputs.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\RunningProc\obj\Debug\RunningProc.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\RunningProc\obj\Debug\RunningProc.pdb
