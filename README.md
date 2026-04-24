@@ -8,7 +8,7 @@ Welcome to my portfolio repository. This space brings together the projects I bu
 25 projects focused on Python basics, OOP, algorithms, APIs, file handling, automation, and Tkinter desktop utilities.
 
 ### 02-Web-Basics
-5 projects focused on HTML, CSS, page layouts, and introductory Flask-based web structure.
+5 projects focused on HTML, CSS, page layouts, and introductory FLASK-based web structure.
 
 ### 03-JavaScript-Logic
 4 projects focused on JavaScript fundamentals, classes, object-oriented logic, and algorithmic exercises.
@@ -17,10 +17,16 @@ Welcome to my portfolio repository. This space brings together the projects I bu
 10 projects focused on React interfaces, routing, Redux, forms, utility labs, and e-commerce style apps.
 
 ### 05-Data-Science-AI
-1 project focused on computer vision and classification practice.
+1 project focused on AI, computer vision, and classification practice.
 
 ### 06-Django-Backend
-14 projects focused on backend development, database structure, SQL logic, Django, Flask backend practice, and enterprise-style system design.
+14 projects focused on backend development, database structure, SQL logic, DJ projects, FLASK backend practice, and enterprise-style system design.
+
+Projects in this section use type tags:
+
+- `DJ` for Django projects
+- `FLASK` for Flask backend projects
+- `SQL` for schema and database structure projects
 
 ### 07-CSharp-Desktop
 21 desktop projects built with Console App, Windows Forms, and WPF technologies.
@@ -54,6 +60,8 @@ Projects in this section:
 
 ### 09-Flask-Web-Apps
 7 Flask projects focused on authentication, CMS ideas, product catalogs, and multi-entity data handling.
+
+Projects in this section use the `FLASK` tag in their names for consistency.
 
 ## Focus Areas
 
