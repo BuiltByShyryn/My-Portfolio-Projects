@@ -31,29 +31,11 @@ Projects in this section use type tags:
 ### 07-CSharp-Desktop
 21 desktop projects built with Console App, Windows Forms, and WPF technologies.
 
-Projects in this section:
+Projects in this section use type tags:
 
-- 01-CA-ParentChildApp
-- 02-WF-DiscountEngineUI
-- 03-CA-GameLogicObserverPattern
-- 04-WPF-CatFactoryModel
-- 05-WPF-MvvmCommandPattern
-- 06-WPF-NotesDatabaseApp
-- 07-CA-MultithreadedAnalytics
-- 08-CA-MultiTypeGenerator
-- 09-WF-DancingProgressBars
-- 10-WPF-HorseRace
-- 11-WPF-MutexProgression
-- 12-WPF-CasinoThreading
-- 13-WPF-HorseRaceMultithreading
-- 14-CA-StartupRegistryManager
-- 15-WPF-AnimationBall
-- 16-WPF-StarHunterMultithreadedGame
-- 17-WPF-SemaphoreThreads
-- 18-WPF-StartupRegistryManager
-- 19-WF-ProgressBarThreads
-- 20-WF-ProcessLauncher
-- 21-CA-InterlockedCounterSample
+- `CA` for Console App projects
+- `WF` for Windows Forms projects
+- `WPF` for Windows Presentation Foundation projects
 
 ### 08-React-Native-Apps
 12 mobile-focused projects using React Native, navigation, onboarding, API usage, and small utility app patterns.
