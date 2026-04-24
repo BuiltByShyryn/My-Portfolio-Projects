@@ -17,7 +17,7 @@ Welcome to my portfolio repository. This space brings together the projects I bu
 10 projects focused on React interfaces, routing, Redux, forms, utility labs, and e-commerce style apps.
 
 ### 05-Data-Science-AI
-1 project focused on AI, computer vision, and classification practice.
+A collection of data science and AI homework notebooks, including EDA, machine learning, NLP, computer vision, and PyTorch practice.
 
 ### 06-Django-Backend
 14 projects focused on backend development, database structure, SQL logic, DJ projects, FLASK backend practice, and enterprise-style system design.
