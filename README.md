@@ -1,28 +1,73 @@
 # My Portfolio Projects
 
-Welcome to my portfolio repository. This space collects projects I built while learning and practicing different areas of programming.
+Welcome to my portfolio repository. This space brings together the projects I built while learning and practicing different programming technologies.
 
-## What Is Inside
+## Repository Structure
 
-- Python applications
-- Web basics
-- JavaScript logic projects
-- React projects
+### 01-Python-Apps
+25 projects focused on Python basics, OOP, algorithms, APIs, file handling, automation, and Tkinter desktop utilities.
+
+### 02-Web-Basics
+5 projects focused on HTML, CSS, page layouts, and introductory Flask-based web structure.
+
+### 03-JavaScript-Logic
+4 projects focused on JavaScript fundamentals, classes, object-oriented logic, and algorithmic exercises.
+
+### 04-React-Projects
+10 projects focused on React interfaces, routing, Redux, forms, utility labs, and e-commerce style apps.
+
+### 05-Data-Science-AI
+1 project focused on computer vision and classification practice.
+
+### 06-Django-Backend
+14 projects focused on backend development, database structure, SQL logic, Django, Flask backend practice, and enterprise-style system design.
+
+### 07-CSharp-Desktop
+21 desktop projects built with Console App, Windows Forms, and WPF technologies.
+
+Projects in this section:
+
+- 01-CA-ParentChildApp
+- 02-WF-DiscountEngineUI
+- 03-CA-GameLogicObserverPattern
+- 04-WPF-CatFactoryModel
+- 05-WPF-MvvmCommandPattern
+- 06-WPF-NotesDatabaseApp
+- 07-CA-MultithreadedAnalytics
+- 08-CA-MultiTypeGenerator
+- 09-WF-DancingProgressBars
+- 10-WPF-HorseRace
+- 11-WPF-MutexProgression
+- 12-WPF-CasinoThreading
+- 13-WPF-HorseRaceMultithreading
+- 14-CA-StartupRegistryManager
+- 15-WPF-AnimationBall
+- 16-WPF-StarHunterMultithreadedGame
+- 17-WPF-SemaphoreThreads
+- 18-WPF-StartupRegistryManager
+- 19-WF-ProgressBarThreads
+- 20-WF-ProcessLauncher
+- 21-CA-InterlockedCounterSample
+
+### 08-React-Native-Apps
+12 mobile-focused projects using React Native, navigation, onboarding, API usage, and small utility app patterns.
+
+### 09-Flask-Web-Apps
+7 Flask projects focused on authentication, CMS ideas, product catalogs, and multi-entity data handling.
+
+## Focus Areas
+
+- Python programming
+- Web development
+- JavaScript and React
+- Flask and Django backend work
 - Data science and AI practice
-- Django backend work
-- C# desktop applications
-- React Native apps
-- Flask web apps
+- C# desktop development
+- React Native mobile apps
 
 ## Purpose
 
-This repository shows my progress across different technologies and keeps my learning projects organized in one place. Some projects are small practice tasks, and some are larger applications with user interfaces, threading, data handling, or desktop features.
-
-## Current Focus
-
-- improving code quality
-- organizing projects more clearly
-- building a stronger portfolio
+This repository shows my learning journey through practical projects. It includes both smaller exercises and larger applications, with work across desktop apps, web apps, backend systems, data-driven projects, and UI-based assignments.
 
 ---
 
