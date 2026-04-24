@@ -1,0 +1,8 @@
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\InterlockedSample\bin\Debug\InterlockedSample.exe.config
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\InterlockedSample\bin\Debug\InterlockedSample.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\InterlockedSample\bin\Debug\InterlockedSample.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\InterlockedSample\obj\Debug\InterlockedSample.csproj.AssemblyReference.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\InterlockedSample\obj\Debug\InterlockedSample.csproj.CoreCompileInputs.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\InterlockedSample\obj\Debug\InterlockedSample.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\InterlockedSample\obj\Debug\InterlockedSample.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\InterlockedSample\obj\Debug\InterlockedSample.exe.config
