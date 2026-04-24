@@ -1,0 +1,2 @@
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\MutexSample\obj\Debug\MutexSample.csproj.AssemblyReference.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\MutexSample\obj\Debug\MutexSample.csproj.CoreCompileInputs.cache

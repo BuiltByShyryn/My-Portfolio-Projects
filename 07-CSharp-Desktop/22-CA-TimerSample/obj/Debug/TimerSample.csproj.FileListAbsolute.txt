@@ -1,0 +1,2 @@
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\TimerSample\obj\Debug\TimerSample.csproj.AssemblyReference.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\TimerSample\obj\Debug\TimerSample.csproj.CoreCompileInputs.cache
