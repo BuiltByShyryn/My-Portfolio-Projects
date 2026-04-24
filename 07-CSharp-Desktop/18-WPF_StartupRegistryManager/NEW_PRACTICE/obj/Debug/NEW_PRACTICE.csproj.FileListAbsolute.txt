@@ -1,0 +1,8 @@
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\NEW_PRACTICE\obj\Debug\NEW_PRACTICE.csproj.AssemblyReference.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\NEW_PRACTICE\obj\Debug\NEW_PRACTICE.csproj.CoreCompileInputs.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\NEW_PRACTICE\bin\Debug\NEW_PRACTICE.exe.config
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\NEW_PRACTICE\bin\Debug\NEW_PRACTICE.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\NEW_PRACTICE\bin\Debug\NEW_PRACTICE.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\NEW_PRACTICE\obj\Debug\NEW_PRACTICE.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\NEW_PRACTICE\obj\Debug\NEW_PRACTICE.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\NEW_PRACTICE\obj\Debug\NEW_PRACTICE.exe.config
