@@ -1,0 +1,10 @@
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ProgressBar2\ProgressBar2\obj\Debug\ProgressBar2.csproj.AssemblyReference.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ProgressBar2\ProgressBar2\obj\Debug\ProgressBar2.exe.config
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ProgressBar2\ProgressBar2\obj\Debug\ProgressBar2.Form1.resources
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ProgressBar2\ProgressBar2\obj\Debug\ProgressBar2.Properties.Resources.resources
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ProgressBar2\ProgressBar2\obj\Debug\ProgressBar2.csproj.GenerateResource.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ProgressBar2\ProgressBar2\obj\Debug\ProgressBar2.csproj.CoreCompileInputs.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ProgressBar2\ProgressBar2\bin\Debug\ProgressBar2.exe.config
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ProgressBar2\ProgressBar2\bin\Debug\ProgressBar2.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ProgressBar2\ProgressBar2\obj\Debug\ProgressBar2.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\ProgressBar2\ProgressBar2\obj\Debug\ProgressBar2.pdb
