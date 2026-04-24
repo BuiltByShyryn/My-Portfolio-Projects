@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfAppSemaphore.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppSemaphore"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="660">
+  <Canvas Margin="0,0,0,5">
+    <ListBox x:Name="lbxAll" Width="200" Height="300"
+             Canvas.Left="24" Canvas.Top="28"/>
+    <ListBox x:Name="lbxActive" Width="200" Height="300"
+             Canvas.Left="230" Canvas.Top="28"/>
+    <ListBox x:Name="lbxDead" Width="200" Height="300"
+             Canvas.Left="440" Canvas.Top="28"/>
+
+    <Label Content="Кол-во всех потоков: " Canvas.Left="24" Canvas.Top="350"/>
+    <TextBox Text="10" x:Name="txtAll"
+             Canvas.Left="215" Canvas.Top="355"
+             Width="100" HorizontalContentAlignment="Right"/>
+
+    <Label Content="Макс. кол-во активных потоков: "
+           Canvas.Left="24" Canvas.Top="380"/>
+    <TextBox Text="5" x:Name="txtActive" HorizontalContentAlignment="Right"
+             Canvas.Left="215" Canvas.Top="385" Width="100"/>
+    <Button Content="Создать все потоки" Canvas.Left="400" Canvas.Top="350" Click="Button_Click"
+            HorizontalAlignment="Left" VerticalAlignment="Center" Width="120"/>
+    <Button Content="Запустить потоки" Canvas.Left="400" Canvas.Top="380" Click="Button_Click_1"
+            HorizontalAlignment="Left" VerticalAlignment="Center" Width="120"/>
+        <Button Content="Запустить 1 поток" Canvas.Left="400" Canvas.Top="410" Click="Button_Click_2"
+         HorizontalAlignment="Left" VerticalAlignment="Center" Width="120"/>
+
+    </Canvas>
+</Window>

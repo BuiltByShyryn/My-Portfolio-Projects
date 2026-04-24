@@ -1,0 +1,16 @@
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\WpfAppSemaphore\WpfAppSemaphore\bin\Debug\WpfAppSemaphore.exe.config
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\WpfAppSemaphore\WpfAppSemaphore\bin\Debug\WpfAppSemaphore.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\WpfAppSemaphore\WpfAppSemaphore\bin\Debug\WpfAppSemaphore.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\WpfAppSemaphore\WpfAppSemaphore\obj\Debug\WpfAppSemaphore.csproj.AssemblyReference.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\WpfAppSemaphore\WpfAppSemaphore\obj\Debug\MainWindow.g.cs
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\WpfAppSemaphore\WpfAppSemaphore\obj\Debug\App.g.cs
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\WpfAppSemaphore\WpfAppSemaphore\obj\Debug\WpfAppSemaphore_MarkupCompile.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\WpfAppSemaphore\WpfAppSemaphore\obj\Debug\WpfAppSemaphore_MarkupCompile.lref
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\WpfAppSemaphore\WpfAppSemaphore\obj\Debug\MainWindow.baml
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\WpfAppSemaphore\WpfAppSemaphore\obj\Debug\WpfAppSemaphore.g.resources
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\WpfAppSemaphore\WpfAppSemaphore\obj\Debug\WpfAppSemaphore.Properties.Resources.resources
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\WpfAppSemaphore\WpfAppSemaphore\obj\Debug\WpfAppSemaphore.csproj.GenerateResource.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\WpfAppSemaphore\WpfAppSemaphore\obj\Debug\WpfAppSemaphore.csproj.CoreCompileInputs.cache
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\WpfAppSemaphore\WpfAppSemaphore\obj\Debug\WpfAppSemaphore.exe
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\WpfAppSemaphore\WpfAppSemaphore\obj\Debug\WpfAppSemaphore.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\WpfAppSemaphore\WpfAppSemaphore\obj\Debug\WpfAppSemaphore.exe.config
