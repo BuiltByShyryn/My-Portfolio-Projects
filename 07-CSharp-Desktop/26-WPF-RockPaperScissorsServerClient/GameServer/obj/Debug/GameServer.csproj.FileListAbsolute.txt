@@ -1,0 +1,15 @@
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameServer\bin\Debug\GameServer.exe.config
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameServer\bin\Debug\GameServer.exe
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameServer\bin\Debug\GameServer.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameServer\obj\Debug\GameServer.csproj.AssemblyReference.cache
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameServer\obj\Debug\MainWindow.g.cs
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameServer\obj\Debug\App.g.cs
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameServer\obj\Debug\GameServer_MarkupCompile.cache
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameServer\obj\Debug\GameServer_MarkupCompile.lref
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameServer\obj\Debug\MainWindow.baml
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameServer\obj\Debug\GameServer.g.resources
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameServer\obj\Debug\GameServer.Properties.Resources.resources
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameServer\obj\Debug\GameServer.csproj.GenerateResource.cache
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameServer\obj\Debug\GameServer.csproj.CoreCompileInputs.cache
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameServer\obj\Debug\GameServer.exe
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameServer\obj\Debug\GameServer.pdb

@@ -1,0 +1,15 @@
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameClient\bin\Debug\GameClient.exe.config
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameClient\bin\Debug\GameClient.exe
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameClient\bin\Debug\GameClient.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameClient\obj\Debug\GameClient.csproj.AssemblyReference.cache
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameClient\obj\Debug\MainWindow.g.cs
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameClient\obj\Debug\App.g.cs
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameClient\obj\Debug\GameClient_MarkupCompile.cache
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameClient\obj\Debug\GameClient_MarkupCompile.lref
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameClient\obj\Debug\MainWindow.baml
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameClient\obj\Debug\GameClient.g.resources
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameClient\obj\Debug\GameClient.Properties.Resources.resources
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameClient\obj\Debug\GameClient.csproj.GenerateResource.cache
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameClient\obj\Debug\GameClient.csproj.CoreCompileInputs.cache
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameClient\obj\Debug\GameClient.exe
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\26-WPF-RockPaperScissorsServerClient\GameClient\obj\Debug\GameClient.pdb
