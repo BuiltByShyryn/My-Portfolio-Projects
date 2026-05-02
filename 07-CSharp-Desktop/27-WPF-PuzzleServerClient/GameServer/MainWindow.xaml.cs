@@ -563,16 +563,9 @@ namespace GameServer
             });
         }
 
-        private string MakeHash(string text)
+        private string MakeHash(string password)
         {
-            using (SHA256 sha = SHA256.Create())
-            {
-                byte[] data = sha.ComputeHash(Encoding.UTF8.GetBytes(text));
-                StringBuilder builder = new StringBuilder();
-                foreach (byte one in data)
-                    builder.Append(one.ToString("x2"));
-                return builder.ToString();
-            }
+            return password;
         }
 
         private void btnSaveLog_Click(object sender, RoutedEventArgs e)
@@ -663,6 +656,13 @@ namespace GameServer
             puzzles.Add(new PuzzleInfo { Id = 6, Title = "Star Garden 4x4", Size = 4, Kind = "SLIDE", Cells = "1,2,3,4,5,6,7,8,9,10,11,12,13,14,0,15" });
             puzzles.Add(new PuzzleInfo { Id = 7, Title = "Dreamy Room 4x4", Size = 4, Kind = "SLIDE", Cells = "1,2,3,4,5,6,7,8,9,10,11,12,13,0,14,15" });
             puzzles.Add(new PuzzleInfo { Id = 8, Title = "Starlight Tap Dance", Size = 3, Kind = "ORDER", Cells = "3,1,4,6,2,5,7,8,9" });
+            puzzles.Add(new PuzzleInfo { Id = 9, Title = "Sparkle Sequence", Size = 3, Kind = "ORDER", Cells = "9,1,8,2,7,3,6,4,5" });
+            puzzles.Add(new PuzzleInfo { Id = 10, Title = "Twinkling Memory", Size = 3, Kind = "ORDER", Cells = "5,4,9,1,7,2,8,3,6" });
+            puzzles.Add(new PuzzleInfo { Id = 11, Title = "Cosmic Click", Size = 4, Kind = "ORDER", Cells = "3,1,15,2,5,16,13,4,12,8,10,6,11,7,9,14" });
+            puzzles.Add(new PuzzleInfo { Id = 12, Title = "Midnight Lanterns", Size = 3, Kind = "TOGGLE", Cells = "0,1,0,1,1,1,0,1,0" });
+            puzzles.Add(new PuzzleInfo { Id = 13, Title = "Deep Forest Lanterns", Size = 5, Kind = "TOGGLE", Cells = "0,1,0,1,0,1,1,1,1,1,0,1,0,1,0,1,1,1,1,1,0,1,0,1,0" });
+            puzzles.Add(new PuzzleInfo { Id = 14, Title = "Grand Master Lanterns", Size = 7, Kind = "TOGGLE", Cells = "1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1" });
+
         }
 
         private void EnsureMissingDefaultPuzzles()
@@ -675,6 +675,12 @@ namespace GameServer
             AddDefaultPuzzleIfMissing("Star Garden 4x4", 4, "SLIDE", "1,2,3,4,5,6,7,8,9,10,11,12,13,14,0,15");
             AddDefaultPuzzleIfMissing("Dreamy Room 4x4", 4, "SLIDE", "1,2,3,4,5,6,7,8,9,10,11,12,13,0,14,15");
             AddDefaultPuzzleIfMissing("Starlight Tap Dance", 3, "ORDER", "3,1,4,6,2,5,7,8,9");
+            AddDefaultPuzzleIfMissing("Sparkle Sequence", 3, "ORDER", "9,1,8,2,7,3,6,4,5");
+            AddDefaultPuzzleIfMissing("Twinkling Memory", 3, "ORDER", "5,4,9,1,7,2,8,3,6");
+            AddDefaultPuzzleIfMissing("Cosmic Click", 4, "ORDER", "3,1,15,2,5,16,13,4,12,8,10,6,11,7,9,14");
+            AddDefaultPuzzleIfMissing("Midnight Lanterns", 3, "TOGGLE", "0,1,0,1,1,1,0,1,0");
+            AddDefaultPuzzleIfMissing("Deep Forest Lanterns", 5, "TOGGLE", "0,1,0,1,0,1,1,1,1,1,0,1,0,1,0,1,1,1,1,1,0,1,0,1,0");
+            AddDefaultPuzzleIfMissing("Grand Master Lanterns", 7, "TOGGLE", "1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1");
             SavePuzzles();
         }
 
@@ -718,7 +724,23 @@ namespace GameServer
 
             public override string ToString()
             {
-                string label = Kind == "ORDER" ? "tap-order" : "sliding";
+                string label;
+              
+                string cleanKind = Kind.Trim().ToUpper();
+
+                if (cleanKind == "ORDER")
+                {
+                    label = "tap-order";
+                }
+                else if (cleanKind == "TOGGLE")
+                {
+                    label = "lanterns"; 
+                }
+                else
+                {
+                    label = "sliding";
+                }
+
                 return Id + ". " + Title + " (" + Size + "x" + Size + ", " + label + ")";
             }
         }

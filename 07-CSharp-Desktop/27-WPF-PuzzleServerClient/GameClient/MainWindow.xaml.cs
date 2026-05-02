@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -325,6 +325,10 @@ namespace GameClient
                 {
                     RenderOrderButton(btn, i);
                 }
+                else if (currentPuzzleKind == "TOGGLE") 
+                {
+                    RenderToggleButton(btn, i);
+                }
                 else
                 {
                     RenderSlideButton(btn, i);
@@ -392,6 +396,28 @@ namespace GameClient
             Button btn = sender as Button;
             int clickIndex = (int)btn.Tag;
 
+            if (currentPuzzleKind == "TOGGLE")
+            {
+                List<int> targets = GetNeighbors(clickIndex);
+                targets.Add(clickIndex);
+
+                foreach (int idx in targets)
+                {
+                    board[idx] = (board[idx] == 0) ? 1 : 0;
+                }
+
+                moveCount++;
+                UpdateMoveText();
+                RenderBoard();
+
+                if (board.All(x => x == 0))
+                {
+                    AddLog("Toggle puzzle solved!");
+                    MessageBox.Show("Victory! All lights are out.");
+                }
+                return;
+            }
+
             if (currentPuzzleKind == "ORDER")
             {
                 int clickedValue = board[clickIndex];
@@ -432,6 +458,22 @@ namespace GameClient
                 }
             }
         }
+
+        private void RenderToggleButton(Button btn, int index)
+        {
+            if (board[index] == 1)
+            {
+                btn.Content = "💡";
+                btn.Background = new SolidColorBrush(Color.FromRgb(255, 235, 59));
+            }
+            else
+            {
+                btn.Content = "⚫";
+                btn.Background = new SolidColorBrush(Color.FromRgb(189, 189, 189));
+            }
+            btn.Click += PuzzleButton_Click;
+        }
+
 
         private List<int> GetNeighbors(int index)
         {
@@ -546,7 +588,22 @@ namespace GameClient
 
             public override string ToString()
             {
-                string label = Kind == "ORDER" ? "tap-order" : "sliding";
+                string label;
+                string cleanKind = Kind.Trim().ToUpper();
+
+                if (cleanKind == "ORDER")
+                {
+                    label = "tap-order";
+                }
+                else if (cleanKind == "TOGGLE")
+                {
+                    label = "lanterns"; 
+                }
+                else
+                {
+                    label = "sliding";
+                }
+
                 return Id + ". " + Title + " (" + Size + "x" + Size + ", " + label + ")";
             }
         }

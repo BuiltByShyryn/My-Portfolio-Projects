@@ -1,8 +1,14 @@
 ﻿1|Sunny Bunny Warmup|3|SLIDE|1,2,3,4,5,6,7,0,8
 2|Sleepy Cat Steps|3|SLIDE|1,2,3,5,0,6,4,7,8
-4|Moonlight Mix-Up|3|SLIDE|8,6,7,2,5,4,3,0,1
-5|Candy Heart Puzzle|3|SLIDE|1,3,6,4,0,2,7,5,8
-6|Chaos Bunny Puzzle|3|SLIDE|2,8,3,1,6,4,7,0,5
-7|Star Garden 4x4|4|SLIDE|1,2,3,4,5,6,7,8,9,10,11,12,13,14,0,15
-8|Dreamy Room 4x4|4|SLIDE|1,2,3,4,5,6,7,8,9,10,11,12,13,0,14,15
-9|Starlight Tap Dance|3|ORDER|3,1,4,6,2,5,7,8,9
+3|Moonlight Mix-Up|3|SLIDE|8,6,7,2,5,4,3,0,1
+4|Candy Heart Puzzle|3|SLIDE|1,3,6,4,0,2,7,5,8
+5|Chaos Bunny Puzzle|3|SLIDE|2,8,3,1,6,4,7,0,5
+6|Star Garden 4x4|4|SLIDE|1,2,3,4,5,6,7,8,9,10,11,12,13,14,0,15
+7|Dreamy Room 4x4|4|SLIDE|1,2,3,4,5,6,7,8,9,10,11,12,13,0,14,15
+8|Starlight Tap Dance|3|ORDER|3,1,4,6,2,5,7,8,9
+9|Sparkle Sequence|3|ORDER|9,1,8,2,7,3,6,4,5
+10|Twinkling Memory|3|ORDER|5,4,9,1,7,2,8,3,6
+11|Cosmic Click|4|ORDER|3,1,15,2,5,16,13,4,12,8,10,6,11,7,9,14
+12|Midnight Lanterns|3|TOGGLE|0,1,0,1,1,1,0,1,0
+13|Deep Forest Lanterns|5|TOGGLE|0,1,0,1,0,1,1,1,1,1,0,1,0,1,0,1,1,1,1,1,0,1,0,1,0
+14|Grand Master Lanterns|7|TOGGLE|1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1
