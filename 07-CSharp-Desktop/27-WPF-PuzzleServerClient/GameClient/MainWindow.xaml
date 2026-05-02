@@ -1,0 +1,102 @@
+<Window x:Class="GameClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameClient"
+        mc:Ignorable="d"
+        Title="Puzzle Client 413" Height="860" Width="980" WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="170"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+            <Label Content="Server IP:" VerticalAlignment="Center"/>
+            <TextBox x:Name="txtIP" Width="140" Text="127.0.0.1" Margin="0,0,10,0"/>
+            <Label Content="Port:" VerticalAlignment="Center"/>
+            <TextBox x:Name="txtPort" Width="80" Text="12345" Margin="0,0,10,0"/>
+            <Button x:Name="btnConnect" Width="140" Height="32" Content="Connect" Click="btnConnect_Click"/>
+            <TextBlock x:Name="lblStatus" Margin="20,0,0,0" VerticalAlignment="Center" Foreground="DarkRed" Text="Status: not connected"/>
+        </StackPanel>
+
+        <Grid Grid.Row="1" Margin="0,0,0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="220"/>
+                <ColumnDefinition Width="110"/>
+                <ColumnDefinition Width="110"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBox x:Name="txtLogin" Margin="0,0,10,0" VerticalContentAlignment="Center" Text="student1"/>
+            <PasswordBox x:Name="txtPassword" Grid.Column="1" Margin="0,0,10,0" VerticalContentAlignment="Center"/>
+            <TextBox x:Name="txtFullName" Grid.Column="2" Margin="0,0,10,0" VerticalContentAlignment="Center" Text="Student Name"/>
+            <Button x:Name="btnRegister" Grid.Column="3" Margin="0,0,10,0" Content="Register" Click="btnRegister_Click"/>
+            <Button x:Name="btnLogin" Grid.Column="4" Content="Login" Click="btnLogin_Click"/>
+            <Button x:Name="btnGetPuzzles" Grid.Column="5" Width="140" HorizontalAlignment="Left" Margin="20,0,0,0" Content="Get Puzzles" Click="btnGetPuzzles_Click"/>
+        </Grid>
+
+        <Border Grid.Row="2" Background="#FFF7F0FF" BorderBrush="#FFD1C4E9" BorderThickness="1" CornerRadius="10" Padding="10" Margin="0,0,0,10">
+            <StackPanel>
+                <TextBlock Foreground="#FF5E548E"
+                           Text="First time: type login, password, full name, then click Register. After that click Login."
+                           TextWrapping="Wrap"/>
+                <TextBlock Foreground="#FF5E548E"
+                           Margin="0,4,0,0"
+                           Text="Sliding puzzle: click a number next to the empty cell."
+                           TextWrapping="Wrap"/>
+                <TextBlock Foreground="#FF5E548E"
+                           Margin="0,4,0,0"
+                           Text="Tap-order puzzle: click numbers from 1 to the last one in the correct order."
+                           TextWrapping="Wrap"/>
+                <TextBlock Foreground="#FF5E548E"
+                           Margin="0,4,0,0"
+                           Text="To win: finish the board rule correctly."
+                           TextWrapping="Wrap"/>
+            </StackPanel>
+        </Border>
+
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="260"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <GroupBox Header="Puzzles" Margin="0,0,10,0">
+                <DockPanel>
+                    <StackPanel DockPanel.Dock="Bottom" Margin="0,10,0,0">
+                        <Button x:Name="btnLoadPuzzle" Height="30" Margin="0,0,0,10" Content="Load Puzzle" Click="btnLoadPuzzle_Click"/>
+                        <TextBox x:Name="txtUploadTitle" Margin="0,0,0,10" Text="My Puzzle"/>
+                        <Button x:Name="btnShuffle" Height="30" Margin="0,0,0,10" Content="Shuffle Current Puzzle" Click="btnShuffle_Click"/>
+                        <Button x:Name="btnUpload" Height="30" Content="Upload Current Puzzle" Click="btnUpload_Click"/>
+                    </StackPanel>
+                    <ListBox x:Name="lstPuzzles"/>
+                </DockPanel>
+            </GroupBox>
+
+            <GroupBox Header="Puzzle Board" Grid.Column="1">
+                <DockPanel>
+                    <TextBlock x:Name="txtPuzzleTitle" DockPanel.Dock="Top" FontWeight="Bold" FontSize="16" Margin="0,0,0,10" Text="No puzzle loaded"/>
+                    <TextBlock x:Name="txtMoves" DockPanel.Dock="Top" Foreground="#FF6D4C41" FontWeight="SemiBold" Margin="0,0,0,8" Text="Moves: 0"/>
+                    <Border Width="380" Height="380" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#FFFDF4E8" BorderBrush="#FFD0B48F" BorderThickness="2" CornerRadius="12">
+                        <Grid x:Name="grdPuzzle" Margin="10"/>
+                    </Border>
+                </DockPanel>
+            </GroupBox>
+        </Grid>
+
+        <GroupBox Grid.Row="4" Header="Messages" Margin="0,10,0,0">
+            <TextBox x:Name="txtLog"
+                     IsReadOnly="True"
+                     TextWrapping="Wrap"
+                     AcceptsReturn="True"
+                     VerticalScrollBarVisibility="Auto"/>
+        </GroupBox>
+    </Grid>
+</Window>

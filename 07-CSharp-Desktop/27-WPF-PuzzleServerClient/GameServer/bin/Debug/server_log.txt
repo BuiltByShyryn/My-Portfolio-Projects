@@ -1,0 +1,5 @@
+﻿23:09:14 Server started
+23:09:39 Accept error: The calling thread cannot access this object because a different thread owns it.
+23:10:24 Server stopped
+23:10:25 Server started
+23:10:30 Accept error: The calling thread cannot access this object because a different thread owns it.
