@@ -1,0 +1,8 @@
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Server\bin\Debug\ScreenCapture_Server.exe.config
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Server\bin\Debug\ScreenCapture_Server.exe
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Server\bin\Debug\ScreenCapture_Server.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Server\obj\Debug\ScreenCapture_Server.csproj.AssemblyReference.cache
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Server\obj\Debug\ScreenCapture_Server.csproj.CoreCompileInputs.cache
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Server\obj\Debug\ScreenCapture_Server.exe
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Server\obj\Debug\ScreenCapture_Server.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Server\obj\Debug\ScreenCapture_Server.exe.config

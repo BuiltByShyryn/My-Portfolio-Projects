@@ -1,0 +1,16 @@
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Client\bin\Debug\ScreenCapture_Client.exe.config
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Client\bin\Debug\ScreenCapture_Client.exe
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Client\bin\Debug\ScreenCapture_Client.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Client\obj\Debug\ScreenCapture_Client.csproj.AssemblyReference.cache
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Client\obj\Debug\MainWindow.g.cs
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Client\obj\Debug\App.g.cs
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Client\obj\Debug\ScreenCapture_Client_MarkupCompile.cache
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Client\obj\Debug\ScreenCapture_Client_MarkupCompile.lref
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Client\obj\Debug\MainWindow.baml
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Client\obj\Debug\ScreenCapture_Client.g.resources
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Client\obj\Debug\ScreenCapture_Client.Properties.Resources.resources
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Client\obj\Debug\ScreenCapture_Client.csproj.GenerateResource.cache
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Client\obj\Debug\ScreenCapture_Client.csproj.CoreCompileInputs.cache
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Client\obj\Debug\ScreenCapture_Client.exe
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Client\obj\Debug\ScreenCapture_Client.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\ScreenCapture_Server\ScreenCapture_Client\obj\Debug\ScreenCapture_Client.exe.config

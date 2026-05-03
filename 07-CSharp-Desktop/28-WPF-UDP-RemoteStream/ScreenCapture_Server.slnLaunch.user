@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "ScreenCapture_Server\\ScreenCapture_Server.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ScreenCapture_Client\\ScreenCapture_Client.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
