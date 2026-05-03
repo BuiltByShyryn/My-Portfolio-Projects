@@ -1,0 +1,8 @@
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\Blackjack_Server\Blackjack_Client\bin\Debug\Blackjack_Client.exe.config
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\Blackjack_Server\Blackjack_Client\bin\Debug\Blackjack_Client.exe
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\Blackjack_Server\Blackjack_Client\bin\Debug\Blackjack_Client.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\Blackjack_Server\Blackjack_Client\obj\Debug\Blackjack_Client.csproj.AssemblyReference.cache
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\Blackjack_Server\Blackjack_Client\obj\Debug\Blackjack_Client.csproj.CoreCompileInputs.cache
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\Blackjack_Server\Blackjack_Client\obj\Debug\Blackjack_Client.exe
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\Blackjack_Server\Blackjack_Client\obj\Debug\Blackjack_Client.pdb
+C:\Users\nikak\OneDrive\Рабочий стол\ANOTHER BETTER\Blackjack_Server\Blackjack_Client\obj\Debug\Blackjack_Client.exe.config
