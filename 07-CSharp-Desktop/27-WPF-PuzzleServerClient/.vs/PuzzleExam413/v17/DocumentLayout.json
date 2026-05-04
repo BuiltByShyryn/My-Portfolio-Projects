@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ANOTHER BETTER\\PuzzleExam413_Simple\\",
+  "WorkspaceRootPath": "C:\\Users\\nikak\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\My-Portfolio-Projects\\07-CSharp-Desktop\\27-WPF-PuzzleServerClient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{756347BE-4EBD-4F18-AF4C-684948A15403}|GameServer\\GameServer.csproj|c:\\users\\nikak\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\another better\\puzzleexam413_simple\\gameserver\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{756347BE-4EBD-4F18-AF4C-684948A15403}|GameServer\\GameServer.csproj|c:\\users\\nikak\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\my-portfolio-projects\\07-csharp-desktop\\27-wpf-puzzleserverclient\\gameserver\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{756347BE-4EBD-4F18-AF4C-684948A15403}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C5E2E30-05C2-42DC-9BA2-5E1CC226FD49}|GameClient\\GameClient.csproj|C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ANOTHER BETTER\\PuzzleExam413_Simple\\gameclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C5E2E30-05C2-42DC-9BA2-5E1CC226FD49}|GameClient\\GameClient.csproj|C:\\Users\\nikak\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\My-Portfolio-Projects\\07-CSharp-Desktop\\27-WPF-PuzzleServerClient\\gameclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C5E2E30-05C2-42DC-9BA2-5E1CC226FD49}|GameClient\\GameClient.csproj|solutionrelative:gameclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C5E2E30-05C2-42DC-9BA2-5E1CC226FD49}|GameClient\\GameClient.csproj|C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ANOTHER BETTER\\PuzzleExam413_Simple\\gameclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{2C5E2E30-05C2-42DC-9BA2-5E1CC226FD49}|GameClient\\GameClient.csproj|C:\\Users\\nikak\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\My-Portfolio-Projects\\07-CSharp-Desktop\\27-WPF-PuzzleServerClient\\gameclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2C5E2E30-05C2-42DC-9BA2-5E1CC226FD49}|GameClient\\GameClient.csproj|solutionrelative:gameclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{756347BE-4EBD-4F18-AF4C-684948A15403}|GameServer\\GameServer.csproj|C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ANOTHER BETTER\\PuzzleExam413_Simple\\gameserver\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{756347BE-4EBD-4F18-AF4C-684948A15403}|GameServer\\GameServer.csproj|C:\\Users\\nikak\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\My-Portfolio-Projects\\07-CSharp-Desktop\\27-WPF-PuzzleServerClient\\gameserver\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{756347BE-4EBD-4F18-AF4C-684948A15403}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -36,34 +36,36 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ANOTHER BETTER\\PuzzleExam413_Simple\\GameServer\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\nikak\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\My-Portfolio-Projects\\07-CSharp-Desktop\\27-WPF-PuzzleServerClient\\GameServer\\MainWindow.xaml",
               "RelativeDocumentMoniker": "GameServer\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ANOTHER BETTER\\PuzzleExam413_Simple\\GameServer\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\nikak\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\My-Portfolio-Projects\\07-CSharp-Desktop\\27-WPF-PuzzleServerClient\\GameServer\\MainWindow.xaml",
               "RelativeToolTip": "GameServer\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-02T19:46:31.204Z"
+              "WhenOpened": "2026-05-02T19:46:31.204Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ANOTHER BETTER\\PuzzleExam413_Simple\\GameClient\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\nikak\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\My-Portfolio-Projects\\07-CSharp-Desktop\\27-WPF-PuzzleServerClient\\GameClient\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "GameClient\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ANOTHER BETTER\\PuzzleExam413_Simple\\GameClient\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\nikak\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\My-Portfolio-Projects\\07-CSharp-Desktop\\27-WPF-PuzzleServerClient\\GameClient\\MainWindow.xaml.cs",
               "RelativeToolTip": "GameClient\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAEUCAAAAAAAAAAA6wFICAAARAAAAAAAAAA==",
+              "ViewState": "AgIAALIBAAAAAAAAAAAwwFICAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T19:46:27.726Z"
+              "WhenOpened": "2026-05-02T19:46:27.726Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ANOTHER BETTER\\PuzzleExam413_Simple\\GameServer\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\nikak\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\My-Portfolio-Projects\\07-CSharp-Desktop\\27-WPF-PuzzleServerClient\\GameServer\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "GameServer\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ANOTHER BETTER\\PuzzleExam413_Simple\\GameServer\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\nikak\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\My-Portfolio-Projects\\07-CSharp-Desktop\\27-WPF-PuzzleServerClient\\GameServer\\MainWindow.xaml.cs",
               "RelativeToolTip": "GameServer\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAJECAAAAAAAAAAAkwLYCAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAACQCAAAAAAAAAAAYwD0CAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-02T19:46:27.112Z",
               "EditorCaption": ""
@@ -72,12 +74,13 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ANOTHER BETTER\\PuzzleExam413_Simple\\GameClient\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\nikak\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\My-Portfolio-Projects\\07-CSharp-Desktop\\27-WPF-PuzzleServerClient\\GameClient\\MainWindow.xaml",
               "RelativeDocumentMoniker": "GameClient\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\nikak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ANOTHER BETTER\\PuzzleExam413_Simple\\GameClient\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\nikak\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\My-Portfolio-Projects\\07-CSharp-Desktop\\27-WPF-PuzzleServerClient\\GameClient\\MainWindow.xaml",
               "RelativeToolTip": "GameClient\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-02T19:46:23.931Z"
+              "WhenOpened": "2026-05-02T19:46:23.931Z",
+              "EditorCaption": ""
             }
           ]
         }
