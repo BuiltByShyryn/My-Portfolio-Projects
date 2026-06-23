@@ -16,3 +16,21 @@ C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\StarHunter_Exam\obj
 C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\StarHunter_Exam\obj\Debug\StarHunter_Exam.exe
 C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\StarHunter_Exam\obj\Debug\StarHunter_Exam.pdb
 C:\Users\nikak\OneDrive\Рабочий стол\NEW PROJECST\StarHunter_Exam\obj\Debug\StarHunter_Exam.exe.config
+C:\Users\nikak\OneDrive\Документы\GitHub\My-Portfolio-Projects\07-CSharp-Desktop\16-WPF-StarHunterMultithreadedGame\bin\Debug\StarHunter_Exam.exe.config
+C:\Users\nikak\OneDrive\Документы\GitHub\My-Portfolio-Projects\07-CSharp-Desktop\16-WPF-StarHunterMultithreadedGame\bin\Debug\StarHunter_Exam.exe
+C:\Users\nikak\OneDrive\Документы\GitHub\My-Portfolio-Projects\07-CSharp-Desktop\16-WPF-StarHunterMultithreadedGame\bin\Debug\StarHunter_Exam.pdb
+C:\Users\nikak\OneDrive\Документы\GitHub\My-Portfolio-Projects\07-CSharp-Desktop\16-WPF-StarHunterMultithreadedGame\obj\Debug\StarHunter_Exam.csproj.AssemblyReference.cache
+C:\Users\nikak\OneDrive\Документы\GitHub\My-Portfolio-Projects\07-CSharp-Desktop\16-WPF-StarHunterMultithreadedGame\obj\Debug\StarHunter_Exam.exe.config
+C:\Users\nikak\OneDrive\Документы\GitHub\My-Portfolio-Projects\07-CSharp-Desktop\16-WPF-StarHunterMultithreadedGame\obj\Debug\GameWindow.g.cs
+C:\Users\nikak\OneDrive\Документы\GitHub\My-Portfolio-Projects\07-CSharp-Desktop\16-WPF-StarHunterMultithreadedGame\obj\Debug\MainWindow.g.cs
+C:\Users\nikak\OneDrive\Документы\GitHub\My-Portfolio-Projects\07-CSharp-Desktop\16-WPF-StarHunterMultithreadedGame\obj\Debug\App.g.cs
+C:\Users\nikak\OneDrive\Документы\GitHub\My-Portfolio-Projects\07-CSharp-Desktop\16-WPF-StarHunterMultithreadedGame\obj\Debug\StarHunter_Exam_MarkupCompile.cache
+C:\Users\nikak\OneDrive\Документы\GitHub\My-Portfolio-Projects\07-CSharp-Desktop\16-WPF-StarHunterMultithreadedGame\obj\Debug\StarHunter_Exam_MarkupCompile.lref
+C:\Users\nikak\OneDrive\Документы\GitHub\My-Portfolio-Projects\07-CSharp-Desktop\16-WPF-StarHunterMultithreadedGame\obj\Debug\GameWindow.baml
+C:\Users\nikak\OneDrive\Документы\GitHub\My-Portfolio-Projects\07-CSharp-Desktop\16-WPF-StarHunterMultithreadedGame\obj\Debug\MainWindow.baml
+C:\Users\nikak\OneDrive\Документы\GitHub\My-Portfolio-Projects\07-CSharp-Desktop\16-WPF-StarHunterMultithreadedGame\obj\Debug\StarHunter_Exam.g.resources
+C:\Users\nikak\OneDrive\Документы\GitHub\My-Portfolio-Projects\07-CSharp-Desktop\16-WPF-StarHunterMultithreadedGame\obj\Debug\StarHunter_Exam.Properties.Resources.resources
+C:\Users\nikak\OneDrive\Документы\GitHub\My-Portfolio-Projects\07-CSharp-Desktop\16-WPF-StarHunterMultithreadedGame\obj\Debug\StarHunter_Exam.csproj.GenerateResource.cache
+C:\Users\nikak\OneDrive\Документы\GitHub\My-Portfolio-Projects\07-CSharp-Desktop\16-WPF-StarHunterMultithreadedGame\obj\Debug\StarHunter_Exam.csproj.CoreCompileInputs.cache
+C:\Users\nikak\OneDrive\Документы\GitHub\My-Portfolio-Projects\07-CSharp-Desktop\16-WPF-StarHunterMultithreadedGame\obj\Debug\StarHunter_Exam.exe
+C:\Users\nikak\OneDrive\Документы\GitHub\My-Portfolio-Projects\07-CSharp-Desktop\16-WPF-StarHunterMultithreadedGame\obj\Debug\StarHunter_Exam.pdb
