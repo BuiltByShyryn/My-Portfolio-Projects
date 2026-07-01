@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warehouse</title>
+</head>
+<body>
+    <h1>Warehouse Inventory</h1>
+
+    <form method="POST">
+        <label for="name">Product Name</label>
+        <input type="text" id="name" name="name">
+
+        <br><br>
+        <label for="quantity">Quantity</label>
+        <input type="number" id="quantity" name="quantity">
+
+        <br><br>
+        <label for="price">Price</label>
+        <input type="number" id="price" name="price">
+
+        <br><br>
+        <button type="submit">Add Product</button>
+    </form>
+
+    <h2>Products</h2>
+
+    {% for product in products %}
+        <h3>{{ product.0 }}</h3>
+        <p>Quantity: {{ product.1 }}</p>
+        <p>Price: {{ product.2 }}</p>
+        <hr>
+    {% endfor %}
+
+</body>
+</html>
